@@ -1,0 +1,5212 @@
+{
+  "CCAA": {
+    "diccionario": {
+      "01": "Andalucía",
+      "02": "Aragón",
+      "03": "Asturias, Principado de",
+      "04": "Balears, Illes",
+      "05": "Canarias",
+      "06": "Cantabria",
+      "07": "Castilla y León",
+      "08": "Castilla - La Mancha",
+      "09": "Cataluña",
+      "10": "Comunitat Valenciana",
+      "11": "Extremadura",
+      "12": "Galicia",
+      "13": "Madrid, Comunidad de",
+      "14": "Murcia, Región de",
+      "15": "Navarra, Comunidad Foral de",
+      "16": "País Vasco",
+      "17": "Rioja, La",
+      "18": "Ceuta",
+      "19": "Melilla"
+    },
+    "Descripción": "Comunidad Autónoma de residencia"
+  },
+  "SEXOa": {
+    "diccionario": {
+      "1": "Hombre",
+      "2": "Mujer"
+    },
+    "Descripción": "Identificación del adulto seleccionado: Sexo\n01 a 15 "
+  },
+  "EDADa": {
+    "diccionario": {
+      "998": "No sabe",
+      "999": "No contesta"
+    },
+    "Descripción": "Identificación del adulto seleccionado: Edad. De 015 a 120"
+  },
+  "PROXY_0": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿El informante es la persona seleccionada?"
+  },
+  "PROXY_1": {
+    "diccionario": {
+      "1": "La persona seleccionada está ingresada en un sanatorio, hospital, etc., a causa de una enfermedad",
+      "2": "La persona seleccionada está incapacitada para contestar por discapacidad, enfermedad grave, etc.",
+      "3": "La persona seleccionada está incapacitada para contestar por causa del idioma"
+    },
+    "Descripción": "Informante proxy: ¿Cuál es el motivo por el que la persona seleccionada no facilita sus datos?"
+  },
+  "PROXY_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Informante proxy: ¿Es miembro del hogar el informante?"
+  },
+  "PROXY_3b": {
+    "diccionario": {
+      "1": "Hombre",
+      "2": "Mujer"
+    },
+    "Descripción": "Informante proxy: Sexo del informante"
+  },
+  "PROXY_4": {
+    "diccionario": {
+      "998": "No sabe",
+      "999": "No contesta"
+    },
+    "Descripción": "Informante proxy: Edad del informante. De 018 a 120"
+  },
+  "PROXY_5": {
+    "diccionario": {
+      "1": "Cónyuge o pareja",
+      "2": "Hijo/a",
+      "3": "Padre/Madre",
+      "4": "Hermano/Hermana",
+      "5": "Otros familiares",
+      "6": "Servicios sociales",
+      "7": "Voluntarios",
+      "8": "Otra relación"
+    },
+    "Descripción": "Informante proxy: Relación del informante con el adulto seleccionado"
+  },
+  "E1_1": {
+    "diccionario": {
+      "1": "Nacidos en España",
+      "2": "Nacidos en el extranjero",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "País de nacimiento"
+  },
+  "E1C": {
+    "diccionario": {
+      "1": "Nacidos en España",
+      "2": "Nacidos en el extranjero",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "País de nacimiento de la madre"
+  },
+  "E1E": {
+    "diccionario": {
+      "1": "Nacidos en España",
+      "2": "Nacidos en el extranjero",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "País de nacimiento del padre"
+  },
+  "E2_1a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Nacionalidad: Española"
+  },
+  "E2_1b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Nacionalidad: Extranjera"
+  },
+  "E2_1c": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Nacionalidad: No sabe"
+  },
+  "E2_1d": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Nacionalidad: No contesta"
+  },
+  "E3": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Años residiendo en España (00 a 97 años)"
+  },
+  "E4": {
+    "diccionario": {
+      "1": "Conviviendo con su cónyuge",
+      "2": "Conviviendo con una pareja de hecho",
+      "3": "No conviviendo en pareja",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Convivencia en pareja"
+  },
+  "E4b": {
+    "diccionario": {
+      "1": "Soltero/a",
+      "2": "Casado/a",
+      "3": "Viudo/a",
+      "4": "Separado/a legalmente",
+      "5": "Divorciado/a",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Estado civil"
+  },
+  "ESTUDIOS": {
+    "diccionario": {
+      "01": "No procede, es menor de 10 años",
+      "02": "No sabe leer o escribir",
+      "03": "Educación Primaria incompleta (Ha asistido menos de 5 años a la escuela)",
+      "04": "Educación Primaria completa",
+      "05": "Primera etapa de Enseñanza Secundaria, con o sin título (2º ESO aprobado, EGB, Bachillerato Elemental)",
+      "06": "Estudios de Bachillerato",
+      "07": "Enseñanzas profesionales de grado medio o equivalentes",
+      "08": "Enseñanzas profesionales de grado superior o equivalentes",
+      "09": "Estudios universitarios o equivalentes",
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Nivel de estudios del adulto seleccionado"
+  },
+  "F6": {
+    "diccionario": {
+      "1": "Sí, por cotización propia",
+      "2": "Sí, por cotización de otra persona (pensiones de viudedad, orfandad, etc.)",
+      "3": "Sí, por ambos tipos de cotización",
+      "4": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: ¿Percibe pensión contributiva?"
+  },
+  "F7": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: ¿Ha trabajado antes?"
+  },
+  "F8_2": {
+    "diccionario": {
+      "011": "Cultivos no perennes",
+      "012": "Cultivos perennes",
+      "013": "Propagación de plantas",
+      "014": "Producción ganadera",
+      "015": "Producción agrícola combinada con la producción ganadera",
+      "016": "Actividades de apoyo a la agricultura, a la ganadería y de preparación posterior a la cosecha",
+      "017": "Caza, captura de animales y servicios relacionados con las mismas",
+      "021": "Silvicultura y otras actividades forestales",
+      "022": "Explotación de la madera",
+      "023": "Recolección de productos silvestres, excepto madera",
+      "024": "Servicios de apoyo a la silvicultura",
+      "031": "Pesca",
+      "032": "Acuicultura",
+      "051": "Extracción de antracita y hulla",
+      "052": "Extracción de lignito",
+      "061": "Extracción de crudo de petróleo",
+      "062": "Extracción de gas natural",
+      "071": "Extracción de minerales de hierro",
+      "072": "Extracción de minerales metálicos no férreos",
+      "081": "Extracción de piedra, arena y arcilla",
+      "089": "Industrias extractivas n.c.o.p.",
+      "091": "Actividades de apoyo a la extracción de petróleo y gas natural",
+      "099": "Actividades de apoyo a otras industrias extractivas",
+      "101": "Procesado y conservación de carne y elaboración de productos cárnicos",
+      "102": "Procesado y conservación de pescados, crustáceos y moluscos",
+      "103": "Procesado y conservación de frutas y hortalizas",
+      "104": "Fabricación de aceites y grasas vegetales y animales",
+      "105": "Fabricación de productos lácteos",
+      "106": "Fabricación de productos de molinería, almidones y productos amiláceos",
+      "107": "Fabricación de productos de panadería y pastas alimenticias",
+      "108": "Fabricación de otros productos alimenticios",
+      "109": "Fabricación de productos para la alimentación animal",
+      "110": "Fabricación de bebidas",
+      "120": "Industria del tabaco",
+      "131": "Preparación e hilado de fibras textiles",
+      "132": "Fabricación de tejidos textiles",
+      "133": "Acabado de textiles",
+      "139": "Fabricación de otros productos textiles",
+      "141": "Confección de prendas de vestir, excepto de peletería",
+      "142": "Fabricación de artículos de peletería",
+      "143": "Confección de prendas de vestir de punto",
+      "151": "Preparación, curtido y acabado del cuero; fabricación de artículos de marroquinería, viaje y de guarnicionería y talabartería; preparación y teñido de pieles",
+      "152": "Fabricación de calzado",
+      "161": "Aserrado y cepillado de la madera",
+      "162": "Fabricación de productos de madera, corcho, cestería y espartería",
+      "171": "Fabricación de pasta papelera, papel y cartón",
+      "172": "Fabricación de artículos de papel y de cartón",
+      "181": "Artes gráficas y servicios relacionados con las mismas",
+      "182": "Reproducción de soportes grabados",
+      "191": "Coquerías",
+      "192": "Refino de petróleo",
+      "201": "Fabricación de productos químicos básicos, compuestos nitrogenados, fertilizantes, plásticos y caucho sintético en formas primarias",
+      "202": "Fabricación de pesticidas y otros productos agroquímicos",
+      "203": "Fabricación de pinturas, barnices y revestimientos similares; tintas de imprenta y masillas",
+      "204": "Fabricación de jabones, detergentes y otros artículos de limpieza y abrillantamiento; fabricación de perfumes y cosméticos",
+      "205": "Fabricación de otros productos químicos",
+      "206": "Fabricación de fibras artificiales y sintéticas",
+      "211": "Fabricación de productos farmacéuticos de base",
+      "212": "Fabricación de especialidades farmacéuticas",
+      "221": "Fabricación de productos de caucho",
+      "222": "Fabricación de productos de plástico",
+      "231": "Fabricación de vidrio y productos de vidrio",
+      "232": "Fabricación de productos cerámicos refractarios",
+      "233": "Fabricación de productos cerámicos para la construcción",
+      "234": "Fabricación de otros productos cerámicos",
+      "235": "Fabricación de cemento, cal y yeso",
+      "236": "Fabricación de elementos de hormigón, cemento y yeso",
+      "237": "Corte, tallado y acabado de la piedra",
+      "239": "Fabricación de productos abrasivos y productos minerales no metálicos n.c.o.p.",
+      "241": "Fabricación de productos básicos de hierro, acero y ferroaleaciones",
+      "242": "Fabricación de tubos, tuberías, perfiles huecos y sus accesorios, de acero",
+      "243": "Fabricación de otros productos de primera transformación del acero",
+      "244": "Producción de metales preciosos y de otros metales no férreos",
+      "245": "Fundición de metales",
+      "251": "Fabricación de elementos metálicos para la construcción",
+      "252": "Fabricación de cisternas, grandes depósitos y contenedores de metal",
+      "253": "Fabricación de generadores de vapor, excepto calderas de calefacción central",
+      "254": "Fabricación de armas y municiones",
+      "255": "Forja, estampación y embutición de metales; metalurgia de polvos",
+      "256": "Tratamiento y revestimiento de metales; ingeniería mecánica por cuenta de terceros",
+      "257": "Fabricación de artículos de cuchillería y cubertería, herramientas y ferretería",
+      "259": "Fabricación de otros productos metálicos",
+      "261": "Fabricación de componentes electrónicos y circuitos impresos ensamblados",
+      "262": "Fabricación de ordenadores y equipos periféricos",
+      "263": "Fabricación de equipos de telecomunicaciones",
+      "264": "Fabricación de productos electrónicos de consumo",
+      "265": "Fabricación de instrumentos y aparatos de medida, verificación y navegación; fabricación de relojes",
+      "266": "Fabricación de equipos de radiación, electromédicos y electroterapéuticos",
+      "267": "Fabricación de instrumentos de óptica y equipo fotográfico",
+      "268": "Fabricación de soportes magnéticos y ópticos",
+      "271": "Fabricación de motores, generadores y transformadores eléctricos, y de aparatos de distribución y control eléctrico",
+      "272": "Fabricación de pilas y acumuladores eléctricos",
+      "273": "Fabricación de cables y dispositivos de cableado",
+      "274": "Fabricación de lámparas y aparatos eléctricos de iluminación",
+      "275": "Fabricación de aparatos domésticos",
+      "279": "Fabricación de otro material y equipo eléctrico",
+      "281": "Fabricación de maquinaria de uso general",
+      "282": "Fabricación de otra maquinaria de uso general",
+      "283": "Fabricación de maquinaria agraria y forestal",
+      "284": "Fabricación de máquinas herramienta para trabajar el metal y otras máquinas herramienta",
+      "289": "Fabricación de otra maquinaria para usos específicos",
+      "291": "Fabricación de vehículos de motor",
+      "292": "Fabricación de carrocerías para vehículos de motor; fabricación de remolques y semirremolques",
+      "293": "Fabricación de componentes, piezas y accesorios para vehículos de motor",
+      "301": "Construcción naval",
+      "302": "Fabricación de locomotoras y material ferroviario",
+      "303": "Construcción aeronáutica y espacial y su maquinaria",
+      "304": "Fabricación de vehículos militares de combate",
+      "309": "Fabricación de otro material de transporte n.c.o.p.",
+      "310": "Fabricación de muebles",
+      "321": "Fabricación de artículos de joyería, bisutería y similares",
+      "322": "Fabricación de instrumentos musicales",
+      "323": "Fabricación de artículos de deporte",
+      "324": "Fabricación de juegos y juguetes",
+      "325": "Fabricación de instrumentos y suministros médicos y odontológicos",
+      "329": "Industrias manufactureras n.c.o.p.",
+      "331": "Reparación de productos metálicos, maquinaria y equipo",
+      "332": "Instalación de máquinas y equipos industriales",
+      "351": "Producción, transporte y distribución de energía eléctrica",
+      "352": "Producción de gas; distribución por tubería de combustibles gaseosos",
+      "353": "Suministro de vapor y aire acondicionado",
+      "360": "Captación, depuración y distribución de agua",
+      "370": "Recogida y tratamiento de aguas residuales",
+      "381": "Recogida de residuos",
+      "382": "Tratamiento y eliminación de residuos",
+      "383": "Valorización",
+      "390": "Actividades de descontaminación y otros servicios de gestión de residuos",
+      "411": "Promoción inmobiliaria",
+      "412": "Construcción de edificios",
+      "421": "Construcción de carreteras y vías férreas, puentes y túneles",
+      "422": "Construcción de redes",
+      "429": "Construcción de otros proyectos de ingeniería civil",
+      "431": "Demolición y preparación de terrenos",
+      "432": "Instalaciones eléctricas, de fontanería y otras instalaciones en obras de construcción",
+      "433": "Acabado de edificios",
+      "439": "Otras actividades de construcción especializada",
+      "451": "Venta de vehículos de motor",
+      "452": "Mantenimiento y reparación de vehículos de motor",
+      "453": "Comercio de repuestos y accesorios de vehículos de motor",
+      "454": "Venta, mantenimiento y reparación de motocicletas y de sus repuestos y accesorios",
+      "461": "Intermediarios del comercio",
+      "462": "Comercio al por mayor de materias primas agrarias y de animales vivos",
+      "463": "Comercio al por mayor de productos alimenticios, bebidas y tabaco",
+      "464": "Comercio al por mayor de artículos de uso doméstico",
+      "465": "Comercio al por mayor de equipos para las tecnologías de la información y las comunicaciones",
+      "466": "Comercio al por mayor de otra maquinaria, equipos y suministros",
+      "467": "Otro comercio al por mayor especializado",
+      "469": "Comercio al por mayor no especializado",
+      "471": "Comercio al por menor en establecimientos no especializados",
+      "472": "Comercio al por menor de productos alimenticios, bebidas y tabaco en establecimientos especializados",
+      "473": "Comercio al por menor de combustible para la automoción en establecimientos especializados",
+      "474": "Comercio al por menor de equipos para las tecnologías de la información y las comunicaciones en establecimientos especializados",
+      "475": "Comercio al por menor de otros artículos de uso doméstico en establecimientos especializados",
+      "476": "Comercio al por menor de artículos culturales y recreativos en establecimientos especializados",
+      "477": "Comercio al por menor de otros artículos en establecimientos especializados",
+      "478": "Comercio al por menor en puestos de venta y en mercadillos",
+      "479": "Comercio al por menor no realizado ni en establecimientos, ni en puestos de venta ni en mercadillos",
+      "491": "Transporte interurbano de pasajeros por ferrocarril",
+      "492": "Transporte de mercancías por ferrocarril",
+      "493": "Otro transporte terrestre de pasajeros",
+      "494": "Transporte de mercancías por carretera y servicios de mudanza",
+      "495": "Transporte por tubería",
+      "501": "Transporte marítimo de pasajeros",
+      "502": "Transporte marítimo de mercancías",
+      "503": "Transporte de pasajeros por vías navegables interiores",
+      "504": "Transporte de mercancías por vías navegables interiores",
+      "511": "Transporte aéreo de pasajeros",
+      "512": "Transporte aéreo de mercancías y transporte espacial",
+      "521": "Depósito y almacenamiento",
+      "522": "Actividades anexas al transporte",
+      "531": "Actividades postales sometidas a la obligación del servicio universal",
+      "532": "Otras actividades postales y de correos",
+      "551": "Hoteles y alojamientos similares",
+      "552": "Alojamientos turísticos y otros alojamientos de corta estancia",
+      "553": "Campings y aparcamientos para caravanas",
+      "559": "Otros alojamientos",
+      "561": "Restaurantes y puestos de comidas",
+      "562": "Provisión de comidas preparadas para eventos y otros servicios de comidas",
+      "563": "Establecimientos de bebidas",
+      "581": "Edición de libros, periódicos y otras actividades editoriales",
+      "582": "Edición de programas informáticos",
+      "591": "Actividades cinematográficas, de vídeo y de programas de televisión",
+      "592": "Actividades de grabación de sonido y edición musical",
+      "601": "Actividades de radiodifusión",
+      "602": "Actividades de programación y emisión de televisión",
+      "611": "Telecomunicaciones por cable",
+      "612": "Telecomunicaciones inalámbricas",
+      "613": "Telecomunicaciones por satélite",
+      "619": "Otras actividades de telecomunicaciones",
+      "620": "Programación, consultoría y otras actividades relacionadas con la informática",
+      "631": "Proceso de datos, hosting y actividades relacionadas; portales web",
+      "639": "Otros servicios de información",
+      "641": "Intermediación monetaria",
+      "642": "Actividades de las sociedades holding",
+      "643": "Inversión colectiva, fondos y entidades financieras similares",
+      "649": "Otros servicios financieros, excepto seguros y fondos de pensiones",
+      "651": "Seguros",
+      "652": "Reaseguros",
+      "653": "Fondos de pensiones",
+      "661": "Actividades auxiliares a los servicios financieros, excepto seguros y fondos de pensiones",
+      "662": "Actividades auxiliares a seguros y fondos de pensiones",
+      "663": "Actividades de gestión de fondos",
+      "681": "Compraventa de bienes inmobiliarios por cuenta propia",
+      "682": "Alquiler de bienes inmobiliarios por cuenta propia",
+      "683": "Actividades inmobiliarias por cuenta de terceros",
+      "691": "Actividades jurídicas",
+      "692": "Actividades de contabilidad, teneduría de libros, auditoría y asesoría fiscal",
+      "701": "Actividades de las sedes centrales",
+      "702": "Actividades de consultoría de gestión empresarial",
+      "711": "Servicios técnicos de arquitectura e ingeniería y otras actividades relacionadas con el asesoramiento técnico",
+      "712": "Ensayos y análisis técnicos",
+      "721": "Investigación y desarrollo experimental en ciencias naturales y técnicas",
+      "722": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
+      "731": "Publicidad",
+      "732": "Estudio de mercado y realización de encuestas de opinión pública",
+      "741": "Actividades de diseño especializado",
+      "742": "Actividades de fotografía",
+      "743": "Actividades de traducción e interpretación",
+      "749": "Otras actividades profesionales, científicas y técnicas n.c.o.p.",
+      "750": "Actividades veterinarias",
+      "771": "Alquiler de vehículos de motor",
+      "772": "Alquiler de efectos personales y artículos de uso doméstico",
+      "773": "Alquiler de otra maquinaria, equipos y bienes tangibles",
+      "774": "Arrendamiento de la propiedad intelectual y productos similares, excepto trabajos protegidos por los derechos de autor",
+      "781": "Actividades de las agencias de colocación",
+      "782": "Actividades de las empresas de trabajo temporal",
+      "783": "Otra provisión de recursos humanos",
+      "791": "Actividades de agencias de viajes y operadores turísticos",
+      "799": "Otros servicios de reservas y actividades relacionadas con los mismos",
+      "801": "Actividades de seguridad privada",
+      "802": "Servicios de sistemas de seguridad",
+      "803": "Actividades de investigación",
+      "811": "Servicios integrales a edificios e instalaciones",
+      "812": "Actividades de limpieza",
+      "813": "Actividades de jardinería",
+      "821": "Actividades administrativas y auxiliares de oficina",
+      "822": "Actividades de los centros de llamadas",
+      "823": "Organización de convenciones y ferias de muestras",
+      "829": "Actividades de apoyo a las empresas n.c.o.p.",
+      "841": "Administración Pública y de la política económica y social",
+      "842": "Prestación de servicios a la comunidad en general",
+      "843": "Seguridad Social obligatoria",
+      "851": "Educación preprimaria",
+      "852": "Educación primaria",
+      "853": "Educación secundaria",
+      "854": "Educación postsecundaria",
+      "855": "Otra educación",
+      "856": "Actividades auxiliares a la educación",
+      "861": "Actividades hospitalarias",
+      "862": "Actividades médicas y odontológicas",
+      "869": "Otras actividades sanitarias",
+      "871": "Asistencia en establecimientos residenciales con cuidados sanitarios",
+      "872": "Asistencia en establecimientos residenciales para personas con discapacidad intelectual, enfermedad mental y drogodependencia",
+      "873": "Asistencia en establecimientos residenciales para personas mayores y con discapacidad física",
+      "879": "Otras actividades de asistencia en establecimientos residenciales",
+      "881": "Actividades de servicios sociales sin alojamiento para personas mayores y con discapacidad",
+      "889": "Otros actividades de servicios sociales sin alojamiento",
+      "900": "Actividades de creación, artísticas y espectáculos",
+      "910": "Actividades de bibliotecas, archivos, museos y otras actividades culturales",
+      "920": "Actividades de juegos de azar y apuestas",
+      "931": "Actividades deportivas",
+      "932": "Actividades recreativas y de entretenimiento",
+      "941": "Actividades de organizaciones empresariales, profesionales y patronales",
+      "942": "Actividades sindicales",
+      "949": "Otras actividades asociativas",
+      "951": "Reparación de ordenadores y equipos de comunicación",
+      "952": "Reparación de efectos personales y artículos de uso doméstico",
+      "960": "Otros servicios personales",
+      "970": "Actividades de los hogares como empleadores de personal doméstico",
+      "981": "Actividades de los hogares como productores de bienes para uso propio",
+      "982": "Actividades de los hogares como productores de servicios para uso propio",
+      "990": "Actividades de organizaciones y organismos extraterritoriales",
+      "000": "No contesta"
+    },
+    "Descripción": "Persona que generó la pensión: Actividad de la empresa en la que trabajó (CNAE2009, 3 dígitos)\n000 No contesta"
+  },
+  "F9_2": {
+    "diccionario": {
+      "001": "Oficiales y suboficiales de las fuerzas armadas",
+      "002": "Tropa y marinería de las fuerzas armadas",
+      "111": "Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administración Pública y organizaciones de interés social",
+      "112": "Directores generales y presidentes ejecutivos",
+      "121": "Directores de departamentos administrativos",
+      "122": "Directores comerciales, de publicidad, relaciones públicas y de investigación y desarrollo",
+      "131": "Directores de producción de explotaciones agropecuarias, forestales y pesqueras, y de industrias manufactureras, de minería, construcción y distribución",
+      "132": "Directores de servicios de tecnologías de la información y las comunicaciones (TIC) y de empresas de servicios profesionales",
+      "141": "Directores y gerentes de empresas de alojamiento",
+      "142": "Directores y gerentes de empresas de restauración",
+      "143": "Directores y gerentes de empresas de comercio al por mayor y al por menor",
+      "150": "Directores y gerentes de otras empresas de servicios no clasificados bajo otros epígrafes",
+      "211": "Médicos",
+      "212": "Profesionales de enfermería y partería",
+      "213": "Veterinarios",
+      "214": "Farmacéuticos",
+      "215": "Otros profesionales de la salud",
+      "221": "Profesores de universidades y otra enseñanza superior (excepto formación profesional)",
+      "222": "Profesores de formación profesional (materias específicas)",
+      "223": "Profesores de enseñanza secundaria (excepto materias específicas de formación profesional)",
+      "224": "Profesores de enseñanza primaria",
+      "225": "Maestros y educadores de enseñanza infantil",
+      "231": "Profesores y técnicos de educación especial",
+      "232": "Otros profesores y profesionales de la enseñanza",
+      "241": "Físicos, químicos, matemáticos y afines",
+      "242": "Profesionales en ciencias naturales",
+      "243": "Ingenieros (excepto ingenieros agrónomos, de montes, eléctricos, electrónicos y TIC)",
+      "244": "Ingenieros eléctricos, electrónicos y de telecomunicaciones",
+      "245": "Arquitectos, urbanistas e ingenieros geógrafos",
+      "246": "Ingenieros técnicos (excepto agrícolas, forestales, eléctricos, electrónicos y TIC)",
+      "247": "Ingenieros técnicos en electricidad, electrónica y telecomunicaciones",
+      "248": "Arquitectos técnicos, topógrafos y diseñadores",
+      "251": "Jueces, magistrados, abogados y fiscales",
+      "259": "Otros profesionales del derecho",
+      "261": "Especialistas en finanzas",
+      "262": "Especialistas en organización y administración",
+      "263": "Técnicos de empresas y actividades turísticas",
+      "264": "Profesionales de ventas técnicas y médicas (excepto las TIC)",
+      "265": "Otros profesionales de las ventas, la comercialización, la publicidad y las relaciones públicas",
+      "271": "Analistas y diseñadores de software y multimedia",
+      "272": "Especialistas en bases de datos y en redes informáticas",
+      "281": "Economistas",
+      "282": "Sociólogos, historiadores, psicólogos y otros profesionales en ciencias sociales",
+      "283": "Sacerdotes de las distintas religiones",
+      "291": "Archivistas, bibliotecarios, conservadores y afines",
+      "292": "Escritores, periodistas y lingüistas",
+      "293": "Artistas creativos e interpretativos",
+      "311": "Delineantes y dibujantes técnicos",
+      "312": "Técnicos de las ciencias físicas, químicas, medioambientales y de las ingenierías",
+      "313": "Técnicos en control de procesos",
+      "314": "Técnicos de las ciencias naturales y profesionales auxiliares afines",
+      "315": "Profesionales en navegación marítima y aeronáutica",
+      "316": "Técnicos de control de calidad de las ciencias físicas, químicas y de las ingenierías",
+      "320": "Supervisores en ingeniería de minas, de industrias manufactureras y de la construcción",
+      "331": "Técnicos sanitarios de laboratorio, pruebas diagnósticas y prótesis",
+      "332": "Otros técnicos sanitarios",
+      "333": "Profesionales de las terapias alternativas",
+      "340": "Profesionales de apoyo en finanzas y matemáticas",
+      "351": "Agentes y representantes comerciales",
+      "352": "Otros agentes comerciales",
+      "353": "Agentes inmobiliarios y otros agentes",
+      "361": "Asistentes administrativos y especializados",
+      "362": "Agentes de aduanas, tributos y afines que trabajan en tareas propias de la Administración Pública",
+      "363": "Técnicos de las fuerzas y cuerpos de seguridad",
+      "371": "Profesionales de apoyo de servicios jurídicos y sociales",
+      "372": "Deportistas, entrenadores, instructores de actividades deportivas; monitores de actividades recreativas",
+      "373": "Técnicos y profesionales de apoyo de actividades culturales, artísticas y culinarias",
+      "381": "Técnicos en operaciones de tecnologías de la información y asistencia al usuario",
+      "382": "Programadores informáticos",
+      "383": "Técnicos en grabación audiovisual, radiodifusión y telecomunicaciones",
+      "411": "Empleados contables y financieros",
+      "412": "Empleados de registro de materiales, de servicios de apoyo a la producción y al transporte",
+      "421": "Empleados de bibliotecas y archivos",
+      "422": "Empleados de servicios de correos, codificadores, correctores y servicios de personal",
+      "430": "Otros empleados administrativos sin tareas de atención al público",
+      "441": "Empleados de información y recepcionistas (excepto de hoteles)",
+      "442": "Empleados de agencias de viajes, recepcionistas de hoteles y telefonistas",
+      "443": "Agentes de encuestas",
+      "444": "Empleados de ventanilla y afines (excepto taquilleros)",
+      "450": "Empleados administrativos con tareas de atención al público no clasificados bajo otros epígrafes",
+      "500": "Camareros y cocineros propietarios",
+      "511": "Cocineros asalariados",
+      "512": "Camareros asalariados",
+      "521": "Jefes de sección de tiendas y almacenes",
+      "522": "Vendedores en tiendas y almacenes",
+      "530": "Comerciantes propietarios de tiendas",
+      "541": "Vendedores en quioscos o en mercadillos",
+      "542": "Operadores de telemarketing",
+      "543": "Expendedores de gasolineras",
+      "549": "Otros vendedores",
+      "550": "Cajeros y taquilleros (excepto bancos)",
+      "561": "Auxiliares de enfermería",
+      "562": "Técnicos auxiliares de farmacia y emergencias sanitarias y otros trabajadores de los cuidados a las personas en servicios de salud",
+      "571": "Trabajadores de los cuidados personales a domicilio (excepto cuidadores de niños)",
+      "572": "Cuidadores de niños",
+      "581": "Peluqueros y especialistas en tratamientos de estética, bienestar y afines",
+      "582": "Trabajadores que atienden a viajeros, guías turísticos y afines",
+      "583": "Supervisores de mantenimiento y limpieza de edificios, conserjes y mayordomos domésticos",
+      "584": "Trabajadores propietarios de pequeños alojamientos",
+      "589": "Otros trabajadores de servicios personales",
+      "591": "Guardias civiles",
+      "592": "Policías",
+      "593": "Bomberos",
+      "594": "Personal de seguridad privado",
+      "599": "Otros trabajadores de los servicios de protección y seguridad",
+      "611": "Trabajadores cualificados en actividades agrícolas (excepto en huertas, invernaderos, viveros y jardines)",
+      "612": "Trabajadores cualificados en huertas, invernaderos, viveros y jardines",
+      "620": "Trabajadores cualificados en actividades ganaderas (incluidas avícolas, apícolas y similares)",
+      "630": "Trabajadores cualificados en actividades agropecuarias mixtas",
+      "641": "Trabajadores cualificados en actividades forestales y del medio natural",
+      "642": "Trabajadores cualificados en actividades pesqueras y acuicultura",
+      "643": "Trabajadores cualificados en actividades cinegéticas",
+      "711": "Trabajadores en hormigón, encofradores, ferrallistas y afines",
+      "712": "Albañiles, canteros, tronzadores, labrantes y grabadores de piedras",
+      "713": "Carpinteros (excepto ebanistas y montadores de estructuras metálicas)",
+      "719": "Otros trabajadores de las obras estructurales de construcción",
+      "721": "Escayolistas y aplicadores de revestimientos de pasta y mortero",
+      "722": "Fontaneros e instaladores de tuberías",
+      "723": "Pintores, empapeladores y afines",
+      "724": "Soladores, colocadores de parquet y afines",
+      "725": "Mecánicos-instaladores de refrigeración y climatización",
+      "729": "Otros trabajadores de acabado en la construcción, instalaciones (excepto electricistas) y afines",
+      "731": "Moldeadores, soldadores, chapistas, montadores de estructuras metálicas y trabajadores afines",
+      "732": "Herreros y trabajadores de la fabricación de herramientas y afines",
+      "740": "Mecánicos y ajustadores de maquinaria",
+      "751": "Electricistas de la construcción y afines",
+      "752": "Otros instaladores y reparadores de equipos eléctricos",
+      "753": "Instaladores y reparadores de equipos electrónicos y de telecomunicaciones",
+      "761": "Mecánicos de precisión en metales, ceramistas, vidrieros y artesanos",
+      "762": "Oficiales y operarios de las artes gráficas",
+      "770": "Trabajadores de la industria de la alimentación, bebidas y tabaco",
+      "781": "Trabajadores que tratan la madera y afines",
+      "782": "Ebanistas y trabajadores afines",
+      "783": "Trabajadores del textil, confección, piel, cuero y calzado",
+      "789": "Pegadores, buceadores, probadores de productos y otros operarios y artesanos diversos",
+      "811": "Operadores en instalaciones de la extracción y explotación de minerales",
+      "812": "Operadores en instalaciones para el tratamiento de metales",
+      "813": "Operadores de instalaciones y máquinas de productos químicos, farmacéuticos y materiales fotosensibles",
+      "814": "Operadores en instalaciones para el tratamiento y transformación de la madera, la fabricación de papel, productos de papel y caucho o materias plásticas",
+      "815": "Operadores de máquinas para fabricar productos textiles y artículos de piel y de cuero",
+      "816": "Operadores de máquinas para elaborar productos alimenticios, bebidas y tabaco",
+      "817": "Operadores de máquinas de lavandería y tintorería",
+      "819": "Otros operadores de instalaciones y maquinaria fijas",
+      "820": "Montadores y ensambladores en fábricas",
+      "831": "Maquinistas de locomotoras y afines",
+      "832": "Operadores de maquinaria agrícola y forestal móvil",
+      "833": "Operadores de otras máquinas móviles",
+      "834": "Marineros de puente, marineros de máquinas y afines",
+      "841": "Conductores de automóviles, taxis y furgonetas",
+      "842": "Conductores de autobuses y tranvías",
+      "843": "Conductores de camiones",
+      "844": "Conductores de motocicletas y ciclomotores",
+      "910": "Empleados domésticos",
+      "921": "Personal de limpieza de oficinas, hoteles y otros establecimientos similares",
+      "922": "Limpiadores de vehículos, ventanas y personal de limpieza a mano",
+      "931": "Ayudantes de cocina",
+      "932": "Preparadores de comidas rápidas",
+      "941": "Vendedores callejeros",
+      "942": "Repartidores de publicidad, limpiabotas y otros trabajadores de oficios callejeros",
+      "943": "Ordenanzas, mozos de equipaje, repartidores a pie y afines",
+      "944": "Recogedores de residuos, clasificadores de desechos, barrenderos y afines",
+      "949": "Otras ocupaciones elementales",
+      "951": "Peones agrícolas",
+      "952": "Peones ganaderos",
+      "953": "Peones agropecuarios",
+      "954": "Peones de la pesca, la acuicultura, forestales y de la caza",
+      "960": "Peones de la construcción y de la minería",
+      "970": "Peones de las industrias manufactureras",
+      "981": "Peones del transporte, descargadores y afines",
+      "982": "Reponedores",
+      "000": "No contesta"
+    },
+    "Descripción": "Persona que generó la pensión: Ocupación, profesión u oficio (CNO2011, 3 dígitos)\n000 No contesta"
+  },
+  "F10": {
+    "diccionario": {
+      "1": "Asalariado/a (a sueldo, comisión, jornal...)",
+      "2": "Empresario/a o profesional con asalariados",
+      "3": "Empresario/a sin asalariados o trabajador/a independiente",
+      "4": "Ayuda familiar (sin remuneración reglamentada en la empresa o negocio de un familiar)",
+      "5": "Miembro de una cooperativa",
+      "6": "Otra situación",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Persona que generó la pensión: Situación profesional en la ocupación que desempeñó"
+  },
+  "F11": {
+    "diccionario": {
+      "1": "No ha trabajado nunca",
+      "2": "Menos de 6 meses",
+      "3": "De 6 meses a menos de 1 año",
+      "4": "De 1 año a menos de 2 años",
+      "5": "Más de 2 años",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Tiempo que lleva desempleado"
+  },
+  "F12": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: ¿Ha trabajado antes?"
+  },
+  "F13": {
+    "diccionario": {
+      "01": "Funcionario/a",
+      "02": "Duración indefinida",
+      "03": "Temporal",
+      "04": "Verbal o sin contrato",
+      "05": "Empresario/a o profesional con asalariados",
+      "06": "Empresario/a sin asalariados o trabajador/a independiente",
+      "07": "Ayuda familiar (sin remuneración reglamentada en la empresa o negocio de un familiar)",
+      "08": "Miembro de una cooperativa",
+      "09": "Otra situación",
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Tipo de contrato o relación laboral"
+  },
+  "F14a": {
+    "diccionario": {
+      "1": "Menor de 6 meses",
+      "2": "De 6 meses a menos de 1 año",
+      "3": "De 1 año a menos de 2 años",
+      "4": "De 2 años o más",
+      "5": "Sin duración definida",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Duración del contrato"
+  },
+  "F14b": {
+    "diccionario": {
+      "1": "Menor de 6 meses",
+      "2": "De 6 meses a menos de 1 año",
+      "3": "De 1 año a menos de 2 años",
+      "4": "De 2 años o más",
+      "5": "Sin duración definida",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Duración de la relación laboral"
+  },
+  "F15": {
+    "diccionario": {
+      "1": "No",
+      "2": "Sí, de 1 a 4 personas",
+      "3": "Sí, de 5 a 10 personas",
+      "4": "Sí, de 11 a 20 personas",
+      "5": "Sí, más de 20 personas",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Número de trabajadores a su cargo"
+  },
+  "F16": {
+    "diccionario": {
+      "1": "A tiempo completo",
+      "2": "A tiempo parcial",
+      "8": "No sabe ",
+      "9": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Trabajo a tiempo completo / tiempo parcial"
+  },
+  "F17": {
+    "diccionario": {
+      "01": "Jornada partida",
+      "02": "Jornada continua por la mañana",
+      "03": "Jornada continua por la tarde",
+      "04": "Jornada continua por la noche",
+      "05": "Jornada reducida",
+      "06": "Turnos",
+      "07": "Jornada irregular o variable según los días",
+      "08": "Otro tipo",
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Tipo de jornada en su trabajo principal actual"
+  },
+  "F18a_2": {
+    "diccionario": {
+      "011": "Cultivos no perennes",
+      "012": "Cultivos perennes",
+      "013": "Propagación de plantas",
+      "014": "Producción ganadera",
+      "015": "Producción agrícola combinada con la producción ganadera",
+      "016": "Actividades de apoyo a la agricultura, a la ganadería y de preparación posterior a la cosecha",
+      "017": "Caza, captura de animales y servicios relacionados con las mismas",
+      "021": "Silvicultura y otras actividades forestales",
+      "022": "Explotación de la madera",
+      "023": "Recolección de productos silvestres, excepto madera",
+      "024": "Servicios de apoyo a la silvicultura",
+      "031": "Pesca",
+      "032": "Acuicultura",
+      "051": "Extracción de antracita y hulla",
+      "052": "Extracción de lignito",
+      "061": "Extracción de crudo de petróleo",
+      "062": "Extracción de gas natural",
+      "071": "Extracción de minerales de hierro",
+      "072": "Extracción de minerales metálicos no férreos",
+      "081": "Extracción de piedra, arena y arcilla",
+      "089": "Industrias extractivas n.c.o.p.",
+      "091": "Actividades de apoyo a la extracción de petróleo y gas natural",
+      "099": "Actividades de apoyo a otras industrias extractivas",
+      "101": "Procesado y conservación de carne y elaboración de productos cárnicos",
+      "102": "Procesado y conservación de pescados, crustáceos y moluscos",
+      "103": "Procesado y conservación de frutas y hortalizas",
+      "104": "Fabricación de aceites y grasas vegetales y animales",
+      "105": "Fabricación de productos lácteos",
+      "106": "Fabricación de productos de molinería, almidones y productos amiláceos",
+      "107": "Fabricación de productos de panadería y pastas alimenticias",
+      "108": "Fabricación de otros productos alimenticios",
+      "109": "Fabricación de productos para la alimentación animal",
+      "110": "Fabricación de bebidas",
+      "120": "Industria del tabaco",
+      "131": "Preparación e hilado de fibras textiles",
+      "132": "Fabricación de tejidos textiles",
+      "133": "Acabado de textiles",
+      "139": "Fabricación de otros productos textiles",
+      "141": "Confección de prendas de vestir, excepto de peletería",
+      "142": "Fabricación de artículos de peletería",
+      "143": "Confección de prendas de vestir de punto",
+      "151": "Preparación, curtido y acabado del cuero; fabricación de artículos de marroquinería, viaje y de guarnicionería y talabartería; preparación y teñido de pieles",
+      "152": "Fabricación de calzado",
+      "161": "Aserrado y cepillado de la madera",
+      "162": "Fabricación de productos de madera, corcho, cestería y espartería",
+      "171": "Fabricación de pasta papelera, papel y cartón",
+      "172": "Fabricación de artículos de papel y de cartón",
+      "181": "Artes gráficas y servicios relacionados con las mismas",
+      "182": "Reproducción de soportes grabados",
+      "191": "Coquerías",
+      "192": "Refino de petróleo",
+      "201": "Fabricación de productos químicos básicos, compuestos nitrogenados, fertilizantes, plásticos y caucho sintético en formas primarias",
+      "202": "Fabricación de pesticidas y otros productos agroquímicos",
+      "203": "Fabricación de pinturas, barnices y revestimientos similares; tintas de imprenta y masillas",
+      "204": "Fabricación de jabones, detergentes y otros artículos de limpieza y abrillantamiento; fabricación de perfumes y cosméticos",
+      "205": "Fabricación de otros productos químicos",
+      "206": "Fabricación de fibras artificiales y sintéticas",
+      "211": "Fabricación de productos farmacéuticos de base",
+      "212": "Fabricación de especialidades farmacéuticas",
+      "221": "Fabricación de productos de caucho",
+      "222": "Fabricación de productos de plástico",
+      "231": "Fabricación de vidrio y productos de vidrio",
+      "232": "Fabricación de productos cerámicos refractarios",
+      "233": "Fabricación de productos cerámicos para la construcción",
+      "234": "Fabricación de otros productos cerámicos",
+      "235": "Fabricación de cemento, cal y yeso",
+      "236": "Fabricación de elementos de hormigón, cemento y yeso",
+      "237": "Corte, tallado y acabado de la piedra",
+      "239": "Fabricación de productos abrasivos y productos minerales no metálicos n.c.o.p.",
+      "241": "Fabricación de productos básicos de hierro, acero y ferroaleaciones",
+      "242": "Fabricación de tubos, tuberías, perfiles huecos y sus accesorios, de acero",
+      "243": "Fabricación de otros productos de primera transformación del acero",
+      "244": "Producción de metales preciosos y de otros metales no férreos",
+      "245": "Fundición de metales",
+      "251": "Fabricación de elementos metálicos para la construcción",
+      "252": "Fabricación de cisternas, grandes depósitos y contenedores de metal",
+      "253": "Fabricación de generadores de vapor, excepto calderas de calefacción central",
+      "254": "Fabricación de armas y municiones",
+      "255": "Forja, estampación y embutición de metales; metalurgia de polvos",
+      "256": "Tratamiento y revestimiento de metales; ingeniería mecánica por cuenta de terceros",
+      "257": "Fabricación de artículos de cuchillería y cubertería, herramientas y ferretería",
+      "259": "Fabricación de otros productos metálicos",
+      "261": "Fabricación de componentes electrónicos y circuitos impresos ensamblados",
+      "262": "Fabricación de ordenadores y equipos periféricos",
+      "263": "Fabricación de equipos de telecomunicaciones",
+      "264": "Fabricación de productos electrónicos de consumo",
+      "265": "Fabricación de instrumentos y aparatos de medida, verificación y navegación; fabricación de relojes",
+      "266": "Fabricación de equipos de radiación, electromédicos y electroterapéuticos",
+      "267": "Fabricación de instrumentos de óptica y equipo fotográfico",
+      "268": "Fabricación de soportes magnéticos y ópticos",
+      "271": "Fabricación de motores, generadores y transformadores eléctricos, y de aparatos de distribución y control eléctrico",
+      "272": "Fabricación de pilas y acumuladores eléctricos",
+      "273": "Fabricación de cables y dispositivos de cableado",
+      "274": "Fabricación de lámparas y aparatos eléctricos de iluminación",
+      "275": "Fabricación de aparatos domésticos",
+      "279": "Fabricación de otro material y equipo eléctrico",
+      "281": "Fabricación de maquinaria de uso general",
+      "282": "Fabricación de otra maquinaria de uso general",
+      "283": "Fabricación de maquinaria agraria y forestal",
+      "284": "Fabricación de máquinas herramienta para trabajar el metal y otras máquinas herramienta",
+      "289": "Fabricación de otra maquinaria para usos específicos",
+      "291": "Fabricación de vehículos de motor",
+      "292": "Fabricación de carrocerías para vehículos de motor; fabricación de remolques y semirremolques",
+      "293": "Fabricación de componentes, piezas y accesorios para vehículos de motor",
+      "301": "Construcción naval",
+      "302": "Fabricación de locomotoras y material ferroviario",
+      "303": "Construcción aeronáutica y espacial y su maquinaria",
+      "304": "Fabricación de vehículos militares de combate",
+      "309": "Fabricación de otro material de transporte n.c.o.p.",
+      "310": "Fabricación de muebles",
+      "321": "Fabricación de artículos de joyería, bisutería y similares",
+      "322": "Fabricación de instrumentos musicales",
+      "323": "Fabricación de artículos de deporte",
+      "324": "Fabricación de juegos y juguetes",
+      "325": "Fabricación de instrumentos y suministros médicos y odontológicos",
+      "329": "Industrias manufactureras n.c.o.p.",
+      "331": "Reparación de productos metálicos, maquinaria y equipo",
+      "332": "Instalación de máquinas y equipos industriales",
+      "351": "Producción, transporte y distribución de energía eléctrica",
+      "352": "Producción de gas; distribución por tubería de combustibles gaseosos",
+      "353": "Suministro de vapor y aire acondicionado",
+      "360": "Captación, depuración y distribución de agua",
+      "370": "Recogida y tratamiento de aguas residuales",
+      "381": "Recogida de residuos",
+      "382": "Tratamiento y eliminación de residuos",
+      "383": "Valorización",
+      "390": "Actividades de descontaminación y otros servicios de gestión de residuos",
+      "411": "Promoción inmobiliaria",
+      "412": "Construcción de edificios",
+      "421": "Construcción de carreteras y vías férreas, puentes y túneles",
+      "422": "Construcción de redes",
+      "429": "Construcción de otros proyectos de ingeniería civil",
+      "431": "Demolición y preparación de terrenos",
+      "432": "Instalaciones eléctricas, de fontanería y otras instalaciones en obras de construcción",
+      "433": "Acabado de edificios",
+      "439": "Otras actividades de construcción especializada",
+      "451": "Venta de vehículos de motor",
+      "452": "Mantenimiento y reparación de vehículos de motor",
+      "453": "Comercio de repuestos y accesorios de vehículos de motor",
+      "454": "Venta, mantenimiento y reparación de motocicletas y de sus repuestos y accesorios",
+      "461": "Intermediarios del comercio",
+      "462": "Comercio al por mayor de materias primas agrarias y de animales vivos",
+      "463": "Comercio al por mayor de productos alimenticios, bebidas y tabaco",
+      "464": "Comercio al por mayor de artículos de uso doméstico",
+      "465": "Comercio al por mayor de equipos para las tecnologías de la información y las comunicaciones",
+      "466": "Comercio al por mayor de otra maquinaria, equipos y suministros",
+      "467": "Otro comercio al por mayor especializado",
+      "469": "Comercio al por mayor no especializado",
+      "471": "Comercio al por menor en establecimientos no especializados",
+      "472": "Comercio al por menor de productos alimenticios, bebidas y tabaco en establecimientos especializados",
+      "473": "Comercio al por menor de combustible para la automoción en establecimientos especializados",
+      "474": "Comercio al por menor de equipos para las tecnologías de la información y las comunicaciones en establecimientos especializados",
+      "475": "Comercio al por menor de otros artículos de uso doméstico en establecimientos especializados",
+      "476": "Comercio al por menor de artículos culturales y recreativos en establecimientos especializados",
+      "477": "Comercio al por menor de otros artículos en establecimientos especializados",
+      "478": "Comercio al por menor en puestos de venta y en mercadillos",
+      "479": "Comercio al por menor no realizado ni en establecimientos, ni en puestos de venta ni en mercadillos",
+      "491": "Transporte interurbano de pasajeros por ferrocarril",
+      "492": "Transporte de mercancías por ferrocarril",
+      "493": "Otro transporte terrestre de pasajeros",
+      "494": "Transporte de mercancías por carretera y servicios de mudanza",
+      "495": "Transporte por tubería",
+      "501": "Transporte marítimo de pasajeros",
+      "502": "Transporte marítimo de mercancías",
+      "503": "Transporte de pasajeros por vías navegables interiores",
+      "504": "Transporte de mercancías por vías navegables interiores",
+      "511": "Transporte aéreo de pasajeros",
+      "512": "Transporte aéreo de mercancías y transporte espacial",
+      "521": "Depósito y almacenamiento",
+      "522": "Actividades anexas al transporte",
+      "531": "Actividades postales sometidas a la obligación del servicio universal",
+      "532": "Otras actividades postales y de correos",
+      "551": "Hoteles y alojamientos similares",
+      "552": "Alojamientos turísticos y otros alojamientos de corta estancia",
+      "553": "Campings y aparcamientos para caravanas",
+      "559": "Otros alojamientos",
+      "561": "Restaurantes y puestos de comidas",
+      "562": "Provisión de comidas preparadas para eventos y otros servicios de comidas",
+      "563": "Establecimientos de bebidas",
+      "581": "Edición de libros, periódicos y otras actividades editoriales",
+      "582": "Edición de programas informáticos",
+      "591": "Actividades cinematográficas, de vídeo y de programas de televisión",
+      "592": "Actividades de grabación de sonido y edición musical",
+      "601": "Actividades de radiodifusión",
+      "602": "Actividades de programación y emisión de televisión",
+      "611": "Telecomunicaciones por cable",
+      "612": "Telecomunicaciones inalámbricas",
+      "613": "Telecomunicaciones por satélite",
+      "619": "Otras actividades de telecomunicaciones",
+      "620": "Programación, consultoría y otras actividades relacionadas con la informática",
+      "631": "Proceso de datos, hosting y actividades relacionadas; portales web",
+      "639": "Otros servicios de información",
+      "641": "Intermediación monetaria",
+      "642": "Actividades de las sociedades holding",
+      "643": "Inversión colectiva, fondos y entidades financieras similares",
+      "649": "Otros servicios financieros, excepto seguros y fondos de pensiones",
+      "651": "Seguros",
+      "652": "Reaseguros",
+      "653": "Fondos de pensiones",
+      "661": "Actividades auxiliares a los servicios financieros, excepto seguros y fondos de pensiones",
+      "662": "Actividades auxiliares a seguros y fondos de pensiones",
+      "663": "Actividades de gestión de fondos",
+      "681": "Compraventa de bienes inmobiliarios por cuenta propia",
+      "682": "Alquiler de bienes inmobiliarios por cuenta propia",
+      "683": "Actividades inmobiliarias por cuenta de terceros",
+      "691": "Actividades jurídicas",
+      "692": "Actividades de contabilidad, teneduría de libros, auditoría y asesoría fiscal",
+      "701": "Actividades de las sedes centrales",
+      "702": "Actividades de consultoría de gestión empresarial",
+      "711": "Servicios técnicos de arquitectura e ingeniería y otras actividades relacionadas con el asesoramiento técnico",
+      "712": "Ensayos y análisis técnicos",
+      "721": "Investigación y desarrollo experimental en ciencias naturales y técnicas",
+      "722": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
+      "731": "Publicidad",
+      "732": "Estudio de mercado y realización de encuestas de opinión pública",
+      "741": "Actividades de diseño especializado",
+      "742": "Actividades de fotografía",
+      "743": "Actividades de traducción e interpretación",
+      "749": "Otras actividades profesionales, científicas y técnicas n.c.o.p.",
+      "750": "Actividades veterinarias",
+      "771": "Alquiler de vehículos de motor",
+      "772": "Alquiler de efectos personales y artículos de uso doméstico",
+      "773": "Alquiler de otra maquinaria, equipos y bienes tangibles",
+      "774": "Arrendamiento de la propiedad intelectual y productos similares, excepto trabajos protegidos por los derechos de autor",
+      "781": "Actividades de las agencias de colocación",
+      "782": "Actividades de las empresas de trabajo temporal",
+      "783": "Otra provisión de recursos humanos",
+      "791": "Actividades de agencias de viajes y operadores turísticos",
+      "799": "Otros servicios de reservas y actividades relacionadas con los mismos",
+      "801": "Actividades de seguridad privada",
+      "802": "Servicios de sistemas de seguridad",
+      "803": "Actividades de investigación",
+      "811": "Servicios integrales a edificios e instalaciones",
+      "812": "Actividades de limpieza",
+      "813": "Actividades de jardinería",
+      "821": "Actividades administrativas y auxiliares de oficina",
+      "822": "Actividades de los centros de llamadas",
+      "823": "Organización de convenciones y ferias de muestras",
+      "829": "Actividades de apoyo a las empresas n.c.o.p.",
+      "841": "Administración Pública y de la política económica y social",
+      "842": "Prestación de servicios a la comunidad en general",
+      "843": "Seguridad Social obligatoria",
+      "851": "Educación preprimaria",
+      "852": "Educación primaria",
+      "853": "Educación secundaria",
+      "854": "Educación postsecundaria",
+      "855": "Otra educación",
+      "856": "Actividades auxiliares a la educación",
+      "861": "Actividades hospitalarias",
+      "862": "Actividades médicas y odontológicas",
+      "869": "Otras actividades sanitarias",
+      "871": "Asistencia en establecimientos residenciales con cuidados sanitarios",
+      "872": "Asistencia en establecimientos residenciales para personas con discapacidad intelectual, enfermedad mental y drogodependencia",
+      "873": "Asistencia en establecimientos residenciales para personas mayores y con discapacidad física",
+      "879": "Otras actividades de asistencia en establecimientos residenciales",
+      "881": "Actividades de servicios sociales sin alojamiento para personas mayores y con discapacidad",
+      "889": "Otros actividades de servicios sociales sin alojamiento",
+      "900": "Actividades de creación, artísticas y espectáculos",
+      "910": "Actividades de bibliotecas, archivos, museos y otras actividades culturales",
+      "920": "Actividades de juegos de azar y apuestas",
+      "931": "Actividades deportivas",
+      "932": "Actividades recreativas y de entretenimiento",
+      "941": "Actividades de organizaciones empresariales, profesionales y patronales",
+      "942": "Actividades sindicales",
+      "949": "Otras actividades asociativas",
+      "951": "Reparación de ordenadores y equipos de comunicación",
+      "952": "Reparación de efectos personales y artículos de uso doméstico",
+      "960": "Otros servicios personales",
+      "970": "Actividades de los hogares como empleadores de personal doméstico",
+      "981": "Actividades de los hogares como productores de bienes para uso propio",
+      "982": "Actividades de los hogares como productores de servicios para uso propio",
+      "990": "Actividades de organizaciones y organismos extraterritoriales",
+      "000": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Actividad de la empresa en la que trabaja (CNAE2009, 3 dígitos)"
+  },
+  "F18b_2": {
+    "diccionario": {
+      "011": "Cultivos no perennes",
+      "012": "Cultivos perennes",
+      "013": "Propagación de plantas",
+      "014": "Producción ganadera",
+      "015": "Producción agrícola combinada con la producción ganadera",
+      "016": "Actividades de apoyo a la agricultura, a la ganadería y de preparación posterior a la cosecha",
+      "017": "Caza, captura de animales y servicios relacionados con las mismas",
+      "021": "Silvicultura y otras actividades forestales",
+      "022": "Explotación de la madera",
+      "023": "Recolección de productos silvestres, excepto madera",
+      "024": "Servicios de apoyo a la silvicultura",
+      "031": "Pesca",
+      "032": "Acuicultura",
+      "051": "Extracción de antracita y hulla",
+      "052": "Extracción de lignito",
+      "061": "Extracción de crudo de petróleo",
+      "062": "Extracción de gas natural",
+      "071": "Extracción de minerales de hierro",
+      "072": "Extracción de minerales metálicos no férreos",
+      "081": "Extracción de piedra, arena y arcilla",
+      "089": "Industrias extractivas n.c.o.p.",
+      "091": "Actividades de apoyo a la extracción de petróleo y gas natural",
+      "099": "Actividades de apoyo a otras industrias extractivas",
+      "101": "Procesado y conservación de carne y elaboración de productos cárnicos",
+      "102": "Procesado y conservación de pescados, crustáceos y moluscos",
+      "103": "Procesado y conservación de frutas y hortalizas",
+      "104": "Fabricación de aceites y grasas vegetales y animales",
+      "105": "Fabricación de productos lácteos",
+      "106": "Fabricación de productos de molinería, almidones y productos amiláceos",
+      "107": "Fabricación de productos de panadería y pastas alimenticias",
+      "108": "Fabricación de otros productos alimenticios",
+      "109": "Fabricación de productos para la alimentación animal",
+      "110": "Fabricación de bebidas",
+      "120": "Industria del tabaco",
+      "131": "Preparación e hilado de fibras textiles",
+      "132": "Fabricación de tejidos textiles",
+      "133": "Acabado de textiles",
+      "139": "Fabricación de otros productos textiles",
+      "141": "Confección de prendas de vestir, excepto de peletería",
+      "142": "Fabricación de artículos de peletería",
+      "143": "Confección de prendas de vestir de punto",
+      "151": "Preparación, curtido y acabado del cuero; fabricación de artículos de marroquinería, viaje y de guarnicionería y talabartería; preparación y teñido de pieles",
+      "152": "Fabricación de calzado",
+      "161": "Aserrado y cepillado de la madera",
+      "162": "Fabricación de productos de madera, corcho, cestería y espartería",
+      "171": "Fabricación de pasta papelera, papel y cartón",
+      "172": "Fabricación de artículos de papel y de cartón",
+      "181": "Artes gráficas y servicios relacionados con las mismas",
+      "182": "Reproducción de soportes grabados",
+      "191": "Coquerías",
+      "192": "Refino de petróleo",
+      "201": "Fabricación de productos químicos básicos, compuestos nitrogenados, fertilizantes, plásticos y caucho sintético en formas primarias",
+      "202": "Fabricación de pesticidas y otros productos agroquímicos",
+      "203": "Fabricación de pinturas, barnices y revestimientos similares; tintas de imprenta y masillas",
+      "204": "Fabricación de jabones, detergentes y otros artículos de limpieza y abrillantamiento; fabricación de perfumes y cosméticos",
+      "205": "Fabricación de otros productos químicos",
+      "206": "Fabricación de fibras artificiales y sintéticas",
+      "211": "Fabricación de productos farmacéuticos de base",
+      "212": "Fabricación de especialidades farmacéuticas",
+      "221": "Fabricación de productos de caucho",
+      "222": "Fabricación de productos de plástico",
+      "231": "Fabricación de vidrio y productos de vidrio",
+      "232": "Fabricación de productos cerámicos refractarios",
+      "233": "Fabricación de productos cerámicos para la construcción",
+      "234": "Fabricación de otros productos cerámicos",
+      "235": "Fabricación de cemento, cal y yeso",
+      "236": "Fabricación de elementos de hormigón, cemento y yeso",
+      "237": "Corte, tallado y acabado de la piedra",
+      "239": "Fabricación de productos abrasivos y productos minerales no metálicos n.c.o.p.",
+      "241": "Fabricación de productos básicos de hierro, acero y ferroaleaciones",
+      "242": "Fabricación de tubos, tuberías, perfiles huecos y sus accesorios, de acero",
+      "243": "Fabricación de otros productos de primera transformación del acero",
+      "244": "Producción de metales preciosos y de otros metales no férreos",
+      "245": "Fundición de metales",
+      "251": "Fabricación de elementos metálicos para la construcción",
+      "252": "Fabricación de cisternas, grandes depósitos y contenedores de metal",
+      "253": "Fabricación de generadores de vapor, excepto calderas de calefacción central",
+      "254": "Fabricación de armas y municiones",
+      "255": "Forja, estampación y embutición de metales; metalurgia de polvos",
+      "256": "Tratamiento y revestimiento de metales; ingeniería mecánica por cuenta de terceros",
+      "257": "Fabricación de artículos de cuchillería y cubertería, herramientas y ferretería",
+      "259": "Fabricación de otros productos metálicos",
+      "261": "Fabricación de componentes electrónicos y circuitos impresos ensamblados",
+      "262": "Fabricación de ordenadores y equipos periféricos",
+      "263": "Fabricación de equipos de telecomunicaciones",
+      "264": "Fabricación de productos electrónicos de consumo",
+      "265": "Fabricación de instrumentos y aparatos de medida, verificación y navegación; fabricación de relojes",
+      "266": "Fabricación de equipos de radiación, electromédicos y electroterapéuticos",
+      "267": "Fabricación de instrumentos de óptica y equipo fotográfico",
+      "268": "Fabricación de soportes magnéticos y ópticos",
+      "271": "Fabricación de motores, generadores y transformadores eléctricos, y de aparatos de distribución y control eléctrico",
+      "272": "Fabricación de pilas y acumuladores eléctricos",
+      "273": "Fabricación de cables y dispositivos de cableado",
+      "274": "Fabricación de lámparas y aparatos eléctricos de iluminación",
+      "275": "Fabricación de aparatos domésticos",
+      "279": "Fabricación de otro material y equipo eléctrico",
+      "281": "Fabricación de maquinaria de uso general",
+      "282": "Fabricación de otra maquinaria de uso general",
+      "283": "Fabricación de maquinaria agraria y forestal",
+      "284": "Fabricación de máquinas herramienta para trabajar el metal y otras máquinas herramienta",
+      "289": "Fabricación de otra maquinaria para usos específicos",
+      "291": "Fabricación de vehículos de motor",
+      "292": "Fabricación de carrocerías para vehículos de motor; fabricación de remolques y semirremolques",
+      "293": "Fabricación de componentes, piezas y accesorios para vehículos de motor",
+      "301": "Construcción naval",
+      "302": "Fabricación de locomotoras y material ferroviario",
+      "303": "Construcción aeronáutica y espacial y su maquinaria",
+      "304": "Fabricación de vehículos militares de combate",
+      "309": "Fabricación de otro material de transporte n.c.o.p.",
+      "310": "Fabricación de muebles",
+      "321": "Fabricación de artículos de joyería, bisutería y similares",
+      "322": "Fabricación de instrumentos musicales",
+      "323": "Fabricación de artículos de deporte",
+      "324": "Fabricación de juegos y juguetes",
+      "325": "Fabricación de instrumentos y suministros médicos y odontológicos",
+      "329": "Industrias manufactureras n.c.o.p.",
+      "331": "Reparación de productos metálicos, maquinaria y equipo",
+      "332": "Instalación de máquinas y equipos industriales",
+      "351": "Producción, transporte y distribución de energía eléctrica",
+      "352": "Producción de gas; distribución por tubería de combustibles gaseosos",
+      "353": "Suministro de vapor y aire acondicionado",
+      "360": "Captación, depuración y distribución de agua",
+      "370": "Recogida y tratamiento de aguas residuales",
+      "381": "Recogida de residuos",
+      "382": "Tratamiento y eliminación de residuos",
+      "383": "Valorización",
+      "390": "Actividades de descontaminación y otros servicios de gestión de residuos",
+      "411": "Promoción inmobiliaria",
+      "412": "Construcción de edificios",
+      "421": "Construcción de carreteras y vías férreas, puentes y túneles",
+      "422": "Construcción de redes",
+      "429": "Construcción de otros proyectos de ingeniería civil",
+      "431": "Demolición y preparación de terrenos",
+      "432": "Instalaciones eléctricas, de fontanería y otras instalaciones en obras de construcción",
+      "433": "Acabado de edificios",
+      "439": "Otras actividades de construcción especializada",
+      "451": "Venta de vehículos de motor",
+      "452": "Mantenimiento y reparación de vehículos de motor",
+      "453": "Comercio de repuestos y accesorios de vehículos de motor",
+      "454": "Venta, mantenimiento y reparación de motocicletas y de sus repuestos y accesorios",
+      "461": "Intermediarios del comercio",
+      "462": "Comercio al por mayor de materias primas agrarias y de animales vivos",
+      "463": "Comercio al por mayor de productos alimenticios, bebidas y tabaco",
+      "464": "Comercio al por mayor de artículos de uso doméstico",
+      "465": "Comercio al por mayor de equipos para las tecnologías de la información y las comunicaciones",
+      "466": "Comercio al por mayor de otra maquinaria, equipos y suministros",
+      "467": "Otro comercio al por mayor especializado",
+      "469": "Comercio al por mayor no especializado",
+      "471": "Comercio al por menor en establecimientos no especializados",
+      "472": "Comercio al por menor de productos alimenticios, bebidas y tabaco en establecimientos especializados",
+      "473": "Comercio al por menor de combustible para la automoción en establecimientos especializados",
+      "474": "Comercio al por menor de equipos para las tecnologías de la información y las comunicaciones en establecimientos especializados",
+      "475": "Comercio al por menor de otros artículos de uso doméstico en establecimientos especializados",
+      "476": "Comercio al por menor de artículos culturales y recreativos en establecimientos especializados",
+      "477": "Comercio al por menor de otros artículos en establecimientos especializados",
+      "478": "Comercio al por menor en puestos de venta y en mercadillos",
+      "479": "Comercio al por menor no realizado ni en establecimientos, ni en puestos de venta ni en mercadillos",
+      "491": "Transporte interurbano de pasajeros por ferrocarril",
+      "492": "Transporte de mercancías por ferrocarril",
+      "493": "Otro transporte terrestre de pasajeros",
+      "494": "Transporte de mercancías por carretera y servicios de mudanza",
+      "495": "Transporte por tubería",
+      "501": "Transporte marítimo de pasajeros",
+      "502": "Transporte marítimo de mercancías",
+      "503": "Transporte de pasajeros por vías navegables interiores",
+      "504": "Transporte de mercancías por vías navegables interiores",
+      "511": "Transporte aéreo de pasajeros",
+      "512": "Transporte aéreo de mercancías y transporte espacial",
+      "521": "Depósito y almacenamiento",
+      "522": "Actividades anexas al transporte",
+      "531": "Actividades postales sometidas a la obligación del servicio universal",
+      "532": "Otras actividades postales y de correos",
+      "551": "Hoteles y alojamientos similares",
+      "552": "Alojamientos turísticos y otros alojamientos de corta estancia",
+      "553": "Campings y aparcamientos para caravanas",
+      "559": "Otros alojamientos",
+      "561": "Restaurantes y puestos de comidas",
+      "562": "Provisión de comidas preparadas para eventos y otros servicios de comidas",
+      "563": "Establecimientos de bebidas",
+      "581": "Edición de libros, periódicos y otras actividades editoriales",
+      "582": "Edición de programas informáticos",
+      "591": "Actividades cinematográficas, de vídeo y de programas de televisión",
+      "592": "Actividades de grabación de sonido y edición musical",
+      "601": "Actividades de radiodifusión",
+      "602": "Actividades de programación y emisión de televisión",
+      "611": "Telecomunicaciones por cable",
+      "612": "Telecomunicaciones inalámbricas",
+      "613": "Telecomunicaciones por satélite",
+      "619": "Otras actividades de telecomunicaciones",
+      "620": "Programación, consultoría y otras actividades relacionadas con la informática",
+      "631": "Proceso de datos, hosting y actividades relacionadas; portales web",
+      "639": "Otros servicios de información",
+      "641": "Intermediación monetaria",
+      "642": "Actividades de las sociedades holding",
+      "643": "Inversión colectiva, fondos y entidades financieras similares",
+      "649": "Otros servicios financieros, excepto seguros y fondos de pensiones",
+      "651": "Seguros",
+      "652": "Reaseguros",
+      "653": "Fondos de pensiones",
+      "661": "Actividades auxiliares a los servicios financieros, excepto seguros y fondos de pensiones",
+      "662": "Actividades auxiliares a seguros y fondos de pensiones",
+      "663": "Actividades de gestión de fondos",
+      "681": "Compraventa de bienes inmobiliarios por cuenta propia",
+      "682": "Alquiler de bienes inmobiliarios por cuenta propia",
+      "683": "Actividades inmobiliarias por cuenta de terceros",
+      "691": "Actividades jurídicas",
+      "692": "Actividades de contabilidad, teneduría de libros, auditoría y asesoría fiscal",
+      "701": "Actividades de las sedes centrales",
+      "702": "Actividades de consultoría de gestión empresarial",
+      "711": "Servicios técnicos de arquitectura e ingeniería y otras actividades relacionadas con el asesoramiento técnico",
+      "712": "Ensayos y análisis técnicos",
+      "721": "Investigación y desarrollo experimental en ciencias naturales y técnicas",
+      "722": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
+      "731": "Publicidad",
+      "732": "Estudio de mercado y realización de encuestas de opinión pública",
+      "741": "Actividades de diseño especializado",
+      "742": "Actividades de fotografía",
+      "743": "Actividades de traducción e interpretación",
+      "749": "Otras actividades profesionales, científicas y técnicas n.c.o.p.",
+      "750": "Actividades veterinarias",
+      "771": "Alquiler de vehículos de motor",
+      "772": "Alquiler de efectos personales y artículos de uso doméstico",
+      "773": "Alquiler de otra maquinaria, equipos y bienes tangibles",
+      "774": "Arrendamiento de la propiedad intelectual y productos similares, excepto trabajos protegidos por los derechos de autor",
+      "781": "Actividades de las agencias de colocación",
+      "782": "Actividades de las empresas de trabajo temporal",
+      "783": "Otra provisión de recursos humanos",
+      "791": "Actividades de agencias de viajes y operadores turísticos",
+      "799": "Otros servicios de reservas y actividades relacionadas con los mismos",
+      "801": "Actividades de seguridad privada",
+      "802": "Servicios de sistemas de seguridad",
+      "803": "Actividades de investigación",
+      "811": "Servicios integrales a edificios e instalaciones",
+      "812": "Actividades de limpieza",
+      "813": "Actividades de jardinería",
+      "821": "Actividades administrativas y auxiliares de oficina",
+      "822": "Actividades de los centros de llamadas",
+      "823": "Organización de convenciones y ferias de muestras",
+      "829": "Actividades de apoyo a las empresas n.c.o.p.",
+      "841": "Administración Pública y de la política económica y social",
+      "842": "Prestación de servicios a la comunidad en general",
+      "843": "Seguridad Social obligatoria",
+      "851": "Educación preprimaria",
+      "852": "Educación primaria",
+      "853": "Educación secundaria",
+      "854": "Educación postsecundaria",
+      "855": "Otra educación",
+      "856": "Actividades auxiliares a la educación",
+      "861": "Actividades hospitalarias",
+      "862": "Actividades médicas y odontológicas",
+      "869": "Otras actividades sanitarias",
+      "871": "Asistencia en establecimientos residenciales con cuidados sanitarios",
+      "872": "Asistencia en establecimientos residenciales para personas con discapacidad intelectual, enfermedad mental y drogodependencia",
+      "873": "Asistencia en establecimientos residenciales para personas mayores y con discapacidad física",
+      "879": "Otras actividades de asistencia en establecimientos residenciales",
+      "881": "Actividades de servicios sociales sin alojamiento para personas mayores y con discapacidad",
+      "889": "Otros actividades de servicios sociales sin alojamiento",
+      "900": "Actividades de creación, artísticas y espectáculos",
+      "910": "Actividades de bibliotecas, archivos, museos y otras actividades culturales",
+      "920": "Actividades de juegos de azar y apuestas",
+      "931": "Actividades deportivas",
+      "932": "Actividades recreativas y de entretenimiento",
+      "941": "Actividades de organizaciones empresariales, profesionales y patronales",
+      "942": "Actividades sindicales",
+      "949": "Otras actividades asociativas",
+      "951": "Reparación de ordenadores y equipos de comunicación",
+      "952": "Reparación de efectos personales y artículos de uso doméstico",
+      "960": "Otros servicios personales",
+      "970": "Actividades de los hogares como empleadores de personal doméstico",
+      "981": "Actividades de los hogares como productores de bienes para uso propio",
+      "982": "Actividades de los hogares como productores de servicios para uso propio",
+      "990": "Actividades de organizaciones y organismos extraterritoriales",
+      "000": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Actividad de la empresa en la que trabajó (CNAE2009, 3 dígitos)"
+  },
+  "F19a_2": {
+    "diccionario": {
+      "001": "Oficiales y suboficiales de las fuerzas armadas",
+      "002": "Tropa y marinería de las fuerzas armadas",
+      "111": "Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administración Pública y organizaciones de interés social",
+      "112": "Directores generales y presidentes ejecutivos",
+      "121": "Directores de departamentos administrativos",
+      "122": "Directores comerciales, de publicidad, relaciones públicas y de investigación y desarrollo",
+      "131": "Directores de producción de explotaciones agropecuarias, forestales y pesqueras, y de industrias manufactureras, de minería, construcción y distribución",
+      "132": "Directores de servicios de tecnologías de la información y las comunicaciones (TIC) y de empresas de servicios profesionales",
+      "141": "Directores y gerentes de empresas de alojamiento",
+      "142": "Directores y gerentes de empresas de restauración",
+      "143": "Directores y gerentes de empresas de comercio al por mayor y al por menor",
+      "150": "Directores y gerentes de otras empresas de servicios no clasificados bajo otros epígrafes",
+      "211": "Médicos",
+      "212": "Profesionales de enfermería y partería",
+      "213": "Veterinarios",
+      "214": "Farmacéuticos",
+      "215": "Otros profesionales de la salud",
+      "221": "Profesores de universidades y otra enseñanza superior (excepto formación profesional)",
+      "222": "Profesores de formación profesional (materias específicas)",
+      "223": "Profesores de enseñanza secundaria (excepto materias específicas de formación profesional)",
+      "224": "Profesores de enseñanza primaria",
+      "225": "Maestros y educadores de enseñanza infantil",
+      "231": "Profesores y técnicos de educación especial",
+      "232": "Otros profesores y profesionales de la enseñanza",
+      "241": "Físicos, químicos, matemáticos y afines",
+      "242": "Profesionales en ciencias naturales",
+      "243": "Ingenieros (excepto ingenieros agrónomos, de montes, eléctricos, electrónicos y TIC)",
+      "244": "Ingenieros eléctricos, electrónicos y de telecomunicaciones",
+      "245": "Arquitectos, urbanistas e ingenieros geógrafos",
+      "246": "Ingenieros técnicos (excepto agrícolas, forestales, eléctricos, electrónicos y TIC)",
+      "247": "Ingenieros técnicos en electricidad, electrónica y telecomunicaciones",
+      "248": "Arquitectos técnicos, topógrafos y diseñadores",
+      "251": "Jueces, magistrados, abogados y fiscales",
+      "259": "Otros profesionales del derecho",
+      "261": "Especialistas en finanzas",
+      "262": "Especialistas en organización y administración",
+      "263": "Técnicos de empresas y actividades turísticas",
+      "264": "Profesionales de ventas técnicas y médicas (excepto las TIC)",
+      "265": "Otros profesionales de las ventas, la comercialización, la publicidad y las relaciones públicas",
+      "271": "Analistas y diseñadores de software y multimedia",
+      "272": "Especialistas en bases de datos y en redes informáticas",
+      "281": "Economistas",
+      "282": "Sociólogos, historiadores, psicólogos y otros profesionales en ciencias sociales",
+      "283": "Sacerdotes de las distintas religiones",
+      "291": "Archivistas, bibliotecarios, conservadores y afines",
+      "292": "Escritores, periodistas y lingüistas",
+      "293": "Artistas creativos e interpretativos",
+      "311": "Delineantes y dibujantes técnicos",
+      "312": "Técnicos de las ciencias físicas, químicas, medioambientales y de las ingenierías",
+      "313": "Técnicos en control de procesos",
+      "314": "Técnicos de las ciencias naturales y profesionales auxiliares afines",
+      "315": "Profesionales en navegación marítima y aeronáutica",
+      "316": "Técnicos de control de calidad de las ciencias físicas, químicas y de las ingenierías",
+      "320": "Supervisores en ingeniería de minas, de industrias manufactureras y de la construcción",
+      "331": "Técnicos sanitarios de laboratorio, pruebas diagnósticas y prótesis",
+      "332": "Otros técnicos sanitarios",
+      "333": "Profesionales de las terapias alternativas",
+      "340": "Profesionales de apoyo en finanzas y matemáticas",
+      "351": "Agentes y representantes comerciales",
+      "352": "Otros agentes comerciales",
+      "353": "Agentes inmobiliarios y otros agentes",
+      "361": "Asistentes administrativos y especializados",
+      "362": "Agentes de aduanas, tributos y afines que trabajan en tareas propias de la Administración Pública",
+      "363": "Técnicos de las fuerzas y cuerpos de seguridad",
+      "371": "Profesionales de apoyo de servicios jurídicos y sociales",
+      "372": "Deportistas, entrenadores, instructores de actividades deportivas; monitores de actividades recreativas",
+      "373": "Técnicos y profesionales de apoyo de actividades culturales, artísticas y culinarias",
+      "381": "Técnicos en operaciones de tecnologías de la información y asistencia al usuario",
+      "382": "Programadores informáticos",
+      "383": "Técnicos en grabación audiovisual, radiodifusión y telecomunicaciones",
+      "411": "Empleados contables y financieros",
+      "412": "Empleados de registro de materiales, de servicios de apoyo a la producción y al transporte",
+      "421": "Empleados de bibliotecas y archivos",
+      "422": "Empleados de servicios de correos, codificadores, correctores y servicios de personal",
+      "430": "Otros empleados administrativos sin tareas de atención al público",
+      "441": "Empleados de información y recepcionistas (excepto de hoteles)",
+      "442": "Empleados de agencias de viajes, recepcionistas de hoteles y telefonistas",
+      "443": "Agentes de encuestas",
+      "444": "Empleados de ventanilla y afines (excepto taquilleros)",
+      "450": "Empleados administrativos con tareas de atención al público no clasificados bajo otros epígrafes",
+      "500": "Camareros y cocineros propietarios",
+      "511": "Cocineros asalariados",
+      "512": "Camareros asalariados",
+      "521": "Jefes de sección de tiendas y almacenes",
+      "522": "Vendedores en tiendas y almacenes",
+      "530": "Comerciantes propietarios de tiendas",
+      "541": "Vendedores en quioscos o en mercadillos",
+      "542": "Operadores de telemarketing",
+      "543": "Expendedores de gasolineras",
+      "549": "Otros vendedores",
+      "550": "Cajeros y taquilleros (excepto bancos)",
+      "561": "Auxiliares de enfermería",
+      "562": "Técnicos auxiliares de farmacia y emergencias sanitarias y otros trabajadores de los cuidados a las personas en servicios de salud",
+      "571": "Trabajadores de los cuidados personales a domicilio (excepto cuidadores de niños)",
+      "572": "Cuidadores de niños",
+      "581": "Peluqueros y especialistas en tratamientos de estética, bienestar y afines",
+      "582": "Trabajadores que atienden a viajeros, guías turísticos y afines",
+      "583": "Supervisores de mantenimiento y limpieza de edificios, conserjes y mayordomos domésticos",
+      "584": "Trabajadores propietarios de pequeños alojamientos",
+      "589": "Otros trabajadores de servicios personales",
+      "591": "Guardias civiles",
+      "592": "Policías",
+      "593": "Bomberos",
+      "594": "Personal de seguridad privado",
+      "599": "Otros trabajadores de los servicios de protección y seguridad",
+      "611": "Trabajadores cualificados en actividades agrícolas (excepto en huertas, invernaderos, viveros y jardines)",
+      "612": "Trabajadores cualificados en huertas, invernaderos, viveros y jardines",
+      "620": "Trabajadores cualificados en actividades ganaderas (incluidas avícolas, apícolas y similares)",
+      "630": "Trabajadores cualificados en actividades agropecuarias mixtas",
+      "641": "Trabajadores cualificados en actividades forestales y del medio natural",
+      "642": "Trabajadores cualificados en actividades pesqueras y acuicultura",
+      "643": "Trabajadores cualificados en actividades cinegéticas",
+      "711": "Trabajadores en hormigón, encofradores, ferrallistas y afines",
+      "712": "Albañiles, canteros, tronzadores, labrantes y grabadores de piedras",
+      "713": "Carpinteros (excepto ebanistas y montadores de estructuras metálicas)",
+      "719": "Otros trabajadores de las obras estructurales de construcción",
+      "721": "Escayolistas y aplicadores de revestimientos de pasta y mortero",
+      "722": "Fontaneros e instaladores de tuberías",
+      "723": "Pintores, empapeladores y afines",
+      "724": "Soladores, colocadores de parquet y afines",
+      "725": "Mecánicos-instaladores de refrigeración y climatización",
+      "729": "Otros trabajadores de acabado en la construcción, instalaciones (excepto electricistas) y afines",
+      "731": "Moldeadores, soldadores, chapistas, montadores de estructuras metálicas y trabajadores afines",
+      "732": "Herreros y trabajadores de la fabricación de herramientas y afines",
+      "740": "Mecánicos y ajustadores de maquinaria",
+      "751": "Electricistas de la construcción y afines",
+      "752": "Otros instaladores y reparadores de equipos eléctricos",
+      "753": "Instaladores y reparadores de equipos electrónicos y de telecomunicaciones",
+      "761": "Mecánicos de precisión en metales, ceramistas, vidrieros y artesanos",
+      "762": "Oficiales y operarios de las artes gráficas",
+      "770": "Trabajadores de la industria de la alimentación, bebidas y tabaco",
+      "781": "Trabajadores que tratan la madera y afines",
+      "782": "Ebanistas y trabajadores afines",
+      "783": "Trabajadores del textil, confección, piel, cuero y calzado",
+      "789": "Pegadores, buceadores, probadores de productos y otros operarios y artesanos diversos",
+      "811": "Operadores en instalaciones de la extracción y explotación de minerales",
+      "812": "Operadores en instalaciones para el tratamiento de metales",
+      "813": "Operadores de instalaciones y máquinas de productos químicos, farmacéuticos y materiales fotosensibles",
+      "814": "Operadores en instalaciones para el tratamiento y transformación de la madera, la fabricación de papel, productos de papel y caucho o materias plásticas",
+      "815": "Operadores de máquinas para fabricar productos textiles y artículos de piel y de cuero",
+      "816": "Operadores de máquinas para elaborar productos alimenticios, bebidas y tabaco",
+      "817": "Operadores de máquinas de lavandería y tintorería",
+      "819": "Otros operadores de instalaciones y maquinaria fijas",
+      "820": "Montadores y ensambladores en fábricas",
+      "831": "Maquinistas de locomotoras y afines",
+      "832": "Operadores de maquinaria agrícola y forestal móvil",
+      "833": "Operadores de otras máquinas móviles",
+      "834": "Marineros de puente, marineros de máquinas y afines",
+      "841": "Conductores de automóviles, taxis y furgonetas",
+      "842": "Conductores de autobuses y tranvías",
+      "843": "Conductores de camiones",
+      "844": "Conductores de motocicletas y ciclomotores",
+      "910": "Empleados domésticos",
+      "921": "Personal de limpieza de oficinas, hoteles y otros establecimientos similares",
+      "922": "Limpiadores de vehículos, ventanas y personal de limpieza a mano",
+      "931": "Ayudantes de cocina",
+      "932": "Preparadores de comidas rápidas",
+      "941": "Vendedores callejeros",
+      "942": "Repartidores de publicidad, limpiabotas y otros trabajadores de oficios callejeros",
+      "943": "Ordenanzas, mozos de equipaje, repartidores a pie y afines",
+      "944": "Recogedores de residuos, clasificadores de desechos, barrenderos y afines",
+      "949": "Otras ocupaciones elementales",
+      "951": "Peones agrícolas",
+      "952": "Peones ganaderos",
+      "953": "Peones agropecuarios",
+      "954": "Peones de la pesca, la acuicultura, forestales y de la caza",
+      "960": "Peones de la construcción y de la minería",
+      "970": "Peones de las industrias manufactureras",
+      "981": "Peones del transporte, descargadores y afines",
+      "982": "Reponedores",
+      "000": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Ocupación, profesión u oficio actual (CNO2011, 3 dígitos)"
+  },
+  "F19b_2": {
+    "diccionario": {
+      "001": "Oficiales y suboficiales de las fuerzas armadas",
+      "002": "Tropa y marinería de las fuerzas armadas",
+      "111": "Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administración Pública y organizaciones de interés social",
+      "112": "Directores generales y presidentes ejecutivos",
+      "121": "Directores de departamentos administrativos",
+      "122": "Directores comerciales, de publicidad, relaciones públicas y de investigación y desarrollo",
+      "131": "Directores de producción de explotaciones agropecuarias, forestales y pesqueras, y de industrias manufactureras, de minería, construcción y distribución",
+      "132": "Directores de servicios de tecnologías de la información y las comunicaciones (TIC) y de empresas de servicios profesionales",
+      "141": "Directores y gerentes de empresas de alojamiento",
+      "142": "Directores y gerentes de empresas de restauración",
+      "143": "Directores y gerentes de empresas de comercio al por mayor y al por menor",
+      "150": "Directores y gerentes de otras empresas de servicios no clasificados bajo otros epígrafes",
+      "211": "Médicos",
+      "212": "Profesionales de enfermería y partería",
+      "213": "Veterinarios",
+      "214": "Farmacéuticos",
+      "215": "Otros profesionales de la salud",
+      "221": "Profesores de universidades y otra enseñanza superior (excepto formación profesional)",
+      "222": "Profesores de formación profesional (materias específicas)",
+      "223": "Profesores de enseñanza secundaria (excepto materias específicas de formación profesional)",
+      "224": "Profesores de enseñanza primaria",
+      "225": "Maestros y educadores de enseñanza infantil",
+      "231": "Profesores y técnicos de educación especial",
+      "232": "Otros profesores y profesionales de la enseñanza",
+      "241": "Físicos, químicos, matemáticos y afines",
+      "242": "Profesionales en ciencias naturales",
+      "243": "Ingenieros (excepto ingenieros agrónomos, de montes, eléctricos, electrónicos y TIC)",
+      "244": "Ingenieros eléctricos, electrónicos y de telecomunicaciones",
+      "245": "Arquitectos, urbanistas e ingenieros geógrafos",
+      "246": "Ingenieros técnicos (excepto agrícolas, forestales, eléctricos, electrónicos y TIC)",
+      "247": "Ingenieros técnicos en electricidad, electrónica y telecomunicaciones",
+      "248": "Arquitectos técnicos, topógrafos y diseñadores",
+      "251": "Jueces, magistrados, abogados y fiscales",
+      "259": "Otros profesionales del derecho",
+      "261": "Especialistas en finanzas",
+      "262": "Especialistas en organización y administración",
+      "263": "Técnicos de empresas y actividades turísticas",
+      "264": "Profesionales de ventas técnicas y médicas (excepto las TIC)",
+      "265": "Otros profesionales de las ventas, la comercialización, la publicidad y las relaciones públicas",
+      "271": "Analistas y diseñadores de software y multimedia",
+      "272": "Especialistas en bases de datos y en redes informáticas",
+      "281": "Economistas",
+      "282": "Sociólogos, historiadores, psicólogos y otros profesionales en ciencias sociales",
+      "283": "Sacerdotes de las distintas religiones",
+      "291": "Archivistas, bibliotecarios, conservadores y afines",
+      "292": "Escritores, periodistas y lingüistas",
+      "293": "Artistas creativos e interpretativos",
+      "311": "Delineantes y dibujantes técnicos",
+      "312": "Técnicos de las ciencias físicas, químicas, medioambientales y de las ingenierías",
+      "313": "Técnicos en control de procesos",
+      "314": "Técnicos de las ciencias naturales y profesionales auxiliares afines",
+      "315": "Profesionales en navegación marítima y aeronáutica",
+      "316": "Técnicos de control de calidad de las ciencias físicas, químicas y de las ingenierías",
+      "320": "Supervisores en ingeniería de minas, de industrias manufactureras y de la construcción",
+      "331": "Técnicos sanitarios de laboratorio, pruebas diagnósticas y prótesis",
+      "332": "Otros técnicos sanitarios",
+      "333": "Profesionales de las terapias alternativas",
+      "340": "Profesionales de apoyo en finanzas y matemáticas",
+      "351": "Agentes y representantes comerciales",
+      "352": "Otros agentes comerciales",
+      "353": "Agentes inmobiliarios y otros agentes",
+      "361": "Asistentes administrativos y especializados",
+      "362": "Agentes de aduanas, tributos y afines que trabajan en tareas propias de la Administración Pública",
+      "363": "Técnicos de las fuerzas y cuerpos de seguridad",
+      "371": "Profesionales de apoyo de servicios jurídicos y sociales",
+      "372": "Deportistas, entrenadores, instructores de actividades deportivas; monitores de actividades recreativas",
+      "373": "Técnicos y profesionales de apoyo de actividades culturales, artísticas y culinarias",
+      "381": "Técnicos en operaciones de tecnologías de la información y asistencia al usuario",
+      "382": "Programadores informáticos",
+      "383": "Técnicos en grabación audiovisual, radiodifusión y telecomunicaciones",
+      "411": "Empleados contables y financieros",
+      "412": "Empleados de registro de materiales, de servicios de apoyo a la producción y al transporte",
+      "421": "Empleados de bibliotecas y archivos",
+      "422": "Empleados de servicios de correos, codificadores, correctores y servicios de personal",
+      "430": "Otros empleados administrativos sin tareas de atención al público",
+      "441": "Empleados de información y recepcionistas (excepto de hoteles)",
+      "442": "Empleados de agencias de viajes, recepcionistas de hoteles y telefonistas",
+      "443": "Agentes de encuestas",
+      "444": "Empleados de ventanilla y afines (excepto taquilleros)",
+      "450": "Empleados administrativos con tareas de atención al público no clasificados bajo otros epígrafes",
+      "500": "Camareros y cocineros propietarios",
+      "511": "Cocineros asalariados",
+      "512": "Camareros asalariados",
+      "521": "Jefes de sección de tiendas y almacenes",
+      "522": "Vendedores en tiendas y almacenes",
+      "530": "Comerciantes propietarios de tiendas",
+      "541": "Vendedores en quioscos o en mercadillos",
+      "542": "Operadores de telemarketing",
+      "543": "Expendedores de gasolineras",
+      "549": "Otros vendedores",
+      "550": "Cajeros y taquilleros (excepto bancos)",
+      "561": "Auxiliares de enfermería",
+      "562": "Técnicos auxiliares de farmacia y emergencias sanitarias y otros trabajadores de los cuidados a las personas en servicios de salud",
+      "571": "Trabajadores de los cuidados personales a domicilio (excepto cuidadores de niños)",
+      "572": "Cuidadores de niños",
+      "581": "Peluqueros y especialistas en tratamientos de estética, bienestar y afines",
+      "582": "Trabajadores que atienden a viajeros, guías turísticos y afines",
+      "583": "Supervisores de mantenimiento y limpieza de edificios, conserjes y mayordomos domésticos",
+      "584": "Trabajadores propietarios de pequeños alojamientos",
+      "589": "Otros trabajadores de servicios personales",
+      "591": "Guardias civiles",
+      "592": "Policías",
+      "593": "Bomberos",
+      "594": "Personal de seguridad privado",
+      "599": "Otros trabajadores de los servicios de protección y seguridad",
+      "611": "Trabajadores cualificados en actividades agrícolas (excepto en huertas, invernaderos, viveros y jardines)",
+      "612": "Trabajadores cualificados en huertas, invernaderos, viveros y jardines",
+      "620": "Trabajadores cualificados en actividades ganaderas (incluidas avícolas, apícolas y similares)",
+      "630": "Trabajadores cualificados en actividades agropecuarias mixtas",
+      "641": "Trabajadores cualificados en actividades forestales y del medio natural",
+      "642": "Trabajadores cualificados en actividades pesqueras y acuicultura",
+      "643": "Trabajadores cualificados en actividades cinegéticas",
+      "711": "Trabajadores en hormigón, encofradores, ferrallistas y afines",
+      "712": "Albañiles, canteros, tronzadores, labrantes y grabadores de piedras",
+      "713": "Carpinteros (excepto ebanistas y montadores de estructuras metálicas)",
+      "719": "Otros trabajadores de las obras estructurales de construcción",
+      "721": "Escayolistas y aplicadores de revestimientos de pasta y mortero",
+      "722": "Fontaneros e instaladores de tuberías",
+      "723": "Pintores, empapeladores y afines",
+      "724": "Soladores, colocadores de parquet y afines",
+      "725": "Mecánicos-instaladores de refrigeración y climatización",
+      "729": "Otros trabajadores de acabado en la construcción, instalaciones (excepto electricistas) y afines",
+      "731": "Moldeadores, soldadores, chapistas, montadores de estructuras metálicas y trabajadores afines",
+      "732": "Herreros y trabajadores de la fabricación de herramientas y afines",
+      "740": "Mecánicos y ajustadores de maquinaria",
+      "751": "Electricistas de la construcción y afines",
+      "752": "Otros instaladores y reparadores de equipos eléctricos",
+      "753": "Instaladores y reparadores de equipos electrónicos y de telecomunicaciones",
+      "761": "Mecánicos de precisión en metales, ceramistas, vidrieros y artesanos",
+      "762": "Oficiales y operarios de las artes gráficas",
+      "770": "Trabajadores de la industria de la alimentación, bebidas y tabaco",
+      "781": "Trabajadores que tratan la madera y afines",
+      "782": "Ebanistas y trabajadores afines",
+      "783": "Trabajadores del textil, confección, piel, cuero y calzado",
+      "789": "Pegadores, buceadores, probadores de productos y otros operarios y artesanos diversos",
+      "811": "Operadores en instalaciones de la extracción y explotación de minerales",
+      "812": "Operadores en instalaciones para el tratamiento de metales",
+      "813": "Operadores de instalaciones y máquinas de productos químicos, farmacéuticos y materiales fotosensibles",
+      "814": "Operadores en instalaciones para el tratamiento y transformación de la madera, la fabricación de papel, productos de papel y caucho o materias plásticas",
+      "815": "Operadores de máquinas para fabricar productos textiles y artículos de piel y de cuero",
+      "816": "Operadores de máquinas para elaborar productos alimenticios, bebidas y tabaco",
+      "817": "Operadores de máquinas de lavandería y tintorería",
+      "819": "Otros operadores de instalaciones y maquinaria fijas",
+      "820": "Montadores y ensambladores en fábricas",
+      "831": "Maquinistas de locomotoras y afines",
+      "832": "Operadores de maquinaria agrícola y forestal móvil",
+      "833": "Operadores de otras máquinas móviles",
+      "834": "Marineros de puente, marineros de máquinas y afines",
+      "841": "Conductores de automóviles, taxis y furgonetas",
+      "842": "Conductores de autobuses y tranvías",
+      "843": "Conductores de camiones",
+      "844": "Conductores de motocicletas y ciclomotores",
+      "910": "Empleados domésticos",
+      "921": "Personal de limpieza de oficinas, hoteles y otros establecimientos similares",
+      "922": "Limpiadores de vehículos, ventanas y personal de limpieza a mano",
+      "931": "Ayudantes de cocina",
+      "932": "Preparadores de comidas rápidas",
+      "941": "Vendedores callejeros",
+      "942": "Repartidores de publicidad, limpiabotas y otros trabajadores de oficios callejeros",
+      "943": "Ordenanzas, mozos de equipaje, repartidores a pie y afines",
+      "944": "Recogedores de residuos, clasificadores de desechos, barrenderos y afines",
+      "949": "Otras ocupaciones elementales",
+      "951": "Peones agrícolas",
+      "952": "Peones ganaderos",
+      "953": "Peones agropecuarios",
+      "954": "Peones de la pesca, la acuicultura, forestales y de la caza",
+      "960": "Peones de la construcción y de la minería",
+      "970": "Peones de las industrias manufactureras",
+      "981": "Peones del transporte, descargadores y afines",
+      "982": "Reponedores",
+      "000": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Última ocupación, profesión u oficio (CNO2011, 3 dígitos)"
+  },
+  "F20": {
+    "diccionario": {
+      "1": "Asalariado/a (a sueldo, comisión, jornal...)",
+      "2": "Empresario/a o profesional con asalariados",
+      "3": "Empresario/a sin asalariados o trabajador/a independiente",
+      "4": "Ayuda familiar (sin remuneración reglamentada en la empresa o negocio de un familiar)",
+      "5": "Miembro de una cooperativa",
+      "6": "Otra situación",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Adulto seleccionado: Situación profesional que desempeñó en su último empleo"
+  },
+  "G21": {
+    "diccionario": {
+      "1": "Muy bueno",
+      "2": "Bueno",
+      "3": "Regular",
+      "4": "Malo",
+      "5": "Muy malo"
+    },
+    "Descripción": "Estado de salud percibido en los últimos 12 meses"
+  },
+  "G22": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Enfermedad o problema de salud crónicos o de larga duración"
+  },
+  "G23": {
+    "diccionario": {
+      "1": "Gravemente limitado/a",
+      "2": "Limitado/a, pero no gravemente",
+      "3": "Nada limitado/a",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Grado de limitación durante al menos 6 meses por un problema de salud"
+  },
+  "G24": {
+    "diccionario": {
+      "1": "Físico",
+      "2": "Mental",
+      "3": "Ambos",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de problema que causa la dificultad"
+  },
+  "G24a": {
+    "diccionario": {
+      "1": "Muy bueno",
+      "2": "Bueno",
+      "3": "Regular",
+      "4": "Malo",
+      "5": "Muy malo",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Estado de salud bucodental"
+  },
+  "G25a_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Tensión alta"
+  },
+  "G25b_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Tensión alta"
+  },
+  "G25c_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Tensión alta"
+  },
+  "G25a_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Infarto de miocardio"
+  },
+  "G25b_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Infarto de miocardio"
+  },
+  "G25c_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Infarto de miocardio"
+  },
+  "G25d_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Secuelas : Ha padecido secuelas del infarto de miocardio"
+  },
+  "G25a_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Angina de pecho, enfermedad coronaria"
+  },
+  "G25b_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Angina de pecho, enfermedad coronaria"
+  },
+  "G25c_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Angina de pecho, enfermedad coronaria"
+  },
+  "G25a_4": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Otras enfermedades del corazón"
+  },
+  "G25b_4": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Otras enfermedades del corazón"
+  },
+  "G25c_4": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Otras enfermedades del corazón"
+  },
+  "G25a_5": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Varices en las piernas"
+  },
+  "G25b_5": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Varices en las piernas"
+  },
+  "G25c_5": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Varices en las piernas"
+  },
+  "G25a_6": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Artrosis (excluyendo artritis)"
+  },
+  "G25b_6": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Artrosis (excluyendo artritis)"
+  },
+  "G25c_6": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Artrosis (excluyendo artritis)"
+  },
+  "G25a_7": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Dolor de espalda crónico (cervical)"
+  },
+  "G25b_7": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Dolor de espalda crónico (cervical)"
+  },
+  "G25c_7": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Dolor de espalda crónico (cervical)"
+  },
+  "G25a_8": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Dolor de espalda crónico (lumbar)"
+  },
+  "G25b_8": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Dolor de espalda crónico (lumbar)"
+  },
+  "G25c_8": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Dolor de espalda crónico (lumbar)"
+  },
+  "G25a_9": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Alergia crónica, como rinitis, conjuntivitis o dermatitis alérgica, alergia alimentaria o de otro tipo (asma alérgica excluida)"
+  },
+  "G25b_9": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Alergia crónica, como rinitis, conjuntivitis o dermatitis alérgica, alergia alimentaria o de otro tipo (asma alérgica excluida)"
+  },
+  "G25c_9": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Alergia crónica, como rinitis, conjuntivitis o dermatitis alérgica, alergia alimentaria o de otro tipo (asma alérgica excluida)"
+  },
+  "G25a_10": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Asma (incluida asma alérgica)"
+  },
+  "G25b_10": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Asma (incluida asma alérgica)"
+  },
+  "G25c_10": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Asma (incluida asma alérgica)"
+  },
+  "G25a_11": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Bronquitis crónica, enfisema, enfermedad pulmonar obstructiva crónica (EPOC)"
+  },
+  "G25b_11": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Bronquitis crónica, enfisema, enfermedad pulmonar obstructiva crónica (EPOC)"
+  },
+  "G25c_11": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Bronquitis crónica, enfisema, enfermedad pulmonar obstructiva crónica (EPOC)"
+  },
+  "G25a_12": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Diabetes"
+  },
+  "G25b_12": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Diabetes"
+  },
+  "G25c_12": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Diabetes"
+  },
+  "G25a_13": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Úlcera de estómago o duodeno"
+  },
+  "G25b_13": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Úlcera de estómago o duodeno"
+  },
+  "G25c_13": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Úlcera de estómago o duodeno"
+  },
+  "G25a_14": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Incontinencia urinaria o problemas de control de la orina"
+  },
+  "G25b_14": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Incontinencia urinaria o problemas de control de la orina"
+  },
+  "G25c_14": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Incontinencia urinaria o problemas de control de la orina"
+  },
+  "G25a_15": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Colesterol alto"
+  },
+  "G25b_15": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Colesterol alto"
+  },
+  "G25c_15": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Colesterol alto"
+  },
+  "G25a_16": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Cataratas"
+  },
+  "G25b_16": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Cataratas"
+  },
+  "G25c_16": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Cataratas"
+  },
+  "G25a_17": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Problemas crónicos de piel"
+  },
+  "G25b_17": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Problemas crónicos de piel"
+  },
+  "G25c_17": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Problemas crónicos de piel"
+  },
+  "G25a_18": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Estreñimiento crónico"
+  },
+  "G25b_18": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Estreñimiento crónico"
+  },
+  "G25c_18": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Estreñimiento crónico"
+  },
+  "G25a_19": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Cirrosis, disfunción hepática"
+  },
+  "G25b_19": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Cirrosis, disfunción hepática"
+  },
+  "G25c_19": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Cirrosis, disfunción hepática"
+  },
+  "G25a_20": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Depresión"
+  },
+  "G25b_20": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Depresión"
+  },
+  "G25c_20": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Depresión"
+  },
+  "G25a_21": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Ansiedad crónica "
+  },
+  "G25b_21": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Ansiedad crónica "
+  },
+  "G25c_21": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Ansiedad crónica "
+  },
+  "G25a_22": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Otros problemas mentales"
+  },
+  "G25b_22": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Otros problemas mentales"
+  },
+  "G25c_22": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Otros problemas mentales"
+  },
+  "G25a_23": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Ictus (embolia, infarto cerebral, hemorragia cerebral)"
+  },
+  "G25b_23": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Ictus (embolia, infarto cerebral, hemorragia cerebral)"
+  },
+  "G25c_23": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Ictus (embolia, infarto cerebral, hemorragia cerebral)"
+  },
+  "G25d_23": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Secuelas: Ictus (embolia, infarto cerebral, hemorragia cerebral)"
+  },
+  "G25a_24": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Migraña o dolor de cabeza frecuente"
+  },
+  "G25b_24": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Migraña o dolor de cabeza frecuente"
+  },
+  "G25c_24": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Migraña o dolor de cabeza frecuente"
+  },
+  "G25a_25": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Hemorroides"
+  },
+  "G25b_25": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Hemorroides"
+  },
+  "G25c_25": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Hemorroides"
+  },
+  "G25a_26": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Tumores malignos"
+  },
+  "G25b_26": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Tumores malignos"
+  },
+  "G25c_26": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Tumores malignos"
+  },
+  "G25a_27": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Osteoporosis"
+  },
+  "G25b_27": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Osteoporosis"
+  },
+  "G25c_27": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Osteoporosis"
+  },
+  "G25a_28": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Problemas de tiroides"
+  },
+  "G25b_28": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Problemas de tiroides"
+  },
+  "G25c_28": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Problemas de tiroides"
+  },
+  "G25a_29": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Problemas de riñón"
+  },
+  "G25b_29": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Problemas de riñón"
+  },
+  "G25c_29": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Problemas de riñón"
+  },
+  "G25a_30": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Problemas de próstata (solo hombres)"
+  },
+  "G25b_30": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Problemas de próstata (solo hombres)"
+  },
+  "G25c_30": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Problemas de próstata (solo hombres)"
+  },
+  "G25a_31": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Problemas del periodo menopáusico (solo mujeres)"
+  },
+  "G25b_31": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Problemas del periodo menopáusico (solo mujeres)"
+  },
+  "G25c_31": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Problemas del periodo menopáusico (solo mujeres)"
+  },
+  "G25a_32": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido alguna vez: Lesiones o defectos permanentes causados por un accidente"
+  },
+  "G25b_32": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha padecido en los últimos 12 meses: Lesiones o defectos permanentes causados por un accidente"
+  },
+  "G25c_32": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Diagnóstico médico: Lesiones o defectos permanentes causados por un accidente"
+  },
+  "H26_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha tenido en los últimos 12 meses: Accidente de tráfico"
+  },
+  "H26_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha tenido en los últimos 12 meses: Accidente en casa"
+  },
+  "H26_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ha tenido en los últimos 12 meses: Accidente durante su tiempo libre"
+  },
+  "H27": {
+    "diccionario": {
+      "1": "Ingresó en un hospital",
+      "2": "Acudió a un centro de urgencias",
+      "3": "Consultó a un médico/a o enfermero/a",
+      "4": "No hizo ninguna consulta ni intervención",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Intervención sanitaria debida al accidente más grave"
+  },
+  "J30": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ausencias del trabajo en los últimos 12 meses por problemas de salud"
+  },
+  "J31": {
+    "diccionario": {
+      "998": "No sabe",
+      "999": "No contesta"
+    },
+    "Descripción": "Número de días de ausencia del trabajo en los últimos 12 meses (001 al 366)"
+  },
+  "K32": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "3": "Soy ciego o no puedo ver en absoluto",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Utiliza gafas o lentillas?"
+  },
+  "K33": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo ver en absoluto",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para ver (doble enunciado)"
+  },
+  "K34": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "3": "Soy sordo profundo",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Utiliza audífono?"
+  },
+  "K35": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para oir en un sitio tranquilo (doble enunciado)"
+  },
+  "K36": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para oir en un sitio más ruidoso (doble enunciado)"
+  },
+  "K37": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para caminar 500 metros sin ayuda"
+  },
+  "K38": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para subir o bajar 12 escalones"
+  },
+  "K38a": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para concentrarse"
+  },
+  "K38b": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para morder o masticar"
+  },
+  "L39_1": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo por mí mismo",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades básicas diarias: Alimentarse sin ayuda"
+  },
+  "L39_2": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo por mí mismo",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades básicas diarias: Sentarse, levantarse de una silla o de una cama, acostarse sin ayuda"
+  },
+  "L39_3": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo por mí mismo",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades básicas diarias: Vestirse y desvestirse sin ayuda"
+  },
+  "L39_4": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo por mí mismo",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades básicas diarias: Ir al servicio sin ayuda"
+  },
+  "L39_5": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo por mí mismo",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades básicas diarias: Ducharse o bañarse sin ayuda"
+  },
+  "L40": {
+    "diccionario": {
+      "1": "Sí, al menos para una actividad",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Dispone habitualmente de ayuda para realizarlas?"
+  },
+  "L41": {
+    "diccionario": {
+      "1": "Sí, al menos para una actividad",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Necesitaría ayuda o más ayuda de la que dispone? (doble enunciado)"
+  },
+  "L42_1": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades relacionadas con el hogar: Preparar las comidas sin ayuda"
+  },
+  "L42_2": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades relacionadas con el hogar: Utilizar el teléfono sin ayuda"
+  },
+  "L42_3": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades relacionadas con el hogar: Realizar compras sin ayuda"
+  },
+  "L42_4": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades relacionadas con el hogar: Tomar sus medicamentos sin ayuda"
+  },
+  "L42_5": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades relacionadas con el hogar: Realizar tareas domésticas ligeras sin ayuda"
+  },
+  "L42_6": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades relacionadas con el hogar: Realizar ocasionalmente tareas domésticas que requieren un gran esfuerzo sin ayuda"
+  },
+  "L42_7": {
+    "diccionario": {
+      "1": "No, ninguna dificultad",
+      "2": "Sí, alguna dificultad",
+      "3": "Sí, mucha dificultad",
+      "4": "No puedo hacerlo en absoluto",
+      "5": "No aplicable (nunca lo ha intentado o necesitado hacerlo)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dificultad para actividades relacionadas con el hogar: Administrar su propio dinero sin ayuda"
+  },
+  "L43": {
+    "diccionario": {
+      "1": "Sí, al menos para una actividad",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Dispone habitualmente de ayuda para realizarlas?"
+  },
+  "L44": {
+    "diccionario": {
+      "1": "Sí, al menos para una actividad",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Necesitaría ayuda o más ayuda de la que dispone? (doble enunciado)"
+  },
+  "L45": {
+    "diccionario": {
+      "1": "Ninguno",
+      "2": "Muy leve",
+      "3": "Leve",
+      "4": "Moderado",
+      "5": "Severo",
+      "6": "Extremo",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Grado de dolor padecido durante las últimas 4 semanas"
+  },
+  "L46": {
+    "diccionario": {
+      "1": "Nada",
+      "2": "Un poco",
+      "3": "Moderadamente",
+      "4": "Bastante",
+      "5": "Mucho",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Hasta qué punto el dolor afectó a sus actividades cotidianas?"
+  },
+  "N48": {
+    "diccionario": {
+      "1": "En las últimas 4 semanas",
+      "2": "Entre 4 semanas y 12 meses",
+      "3": "Hace 12 meses o más",
+      "4": "Nunca"
+    },
+    "Descripción": "Tiempo desde la última consulta al médico general o de familia"
+  },
+  "N49": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Número de consultas a un médico general o de familia en las cuatro últimas semanas\n00 a 28\nEl valor 00 corresponde a las personas que fueron al médico general en los últimos 12 meses pero no en las últimas 4 semanas (criterio Eurostat)"
+  },
+  "N50": {
+    "diccionario": {
+      "1": "En las últimas 4 semanas",
+      "2": "Entre 4 semanas y 12 meses",
+      "3": "Hace 12 meses o más",
+      "4": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tiempo desde la última consulta a un médico especialista"
+  },
+  "N51": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Número de consultas a un médico especialista en las cuatro últimas semanas\n00 a 28\nEl valor 00 corresponde a las personas que fueron al médico especialista en los últimos 12 meses pero no en las últimas 4 semanas (criterio Eurostat)"
+  },
+  "N52": {
+    "diccionario": {
+      "1": "Médico de familia o médico general",
+      "2": "Especialista",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Último médico consultado"
+  },
+  "N53": {
+    "diccionario": {
+      "01": "Centro de Salud / Consultorio",
+      "02": "Ambulatorio / Centro de especialidades",
+      "03": "Consulta externa de un hospital",
+      "04": "Servicio de urgencias no hospitalario",
+      "05": "Servicio de urgencias de un hospital",
+      "06": "Consulta de médico de una sociedad",
+      "07": "Consulta de médico particular",
+      "08": "Empresa o lugar de trabajo",
+      "09": "Domicilio del entrevistado",
+      "10": "Consulta telefónica",
+      "11": "Otro lugar",
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Lugar de la última consulta en estas cuatro semanas"
+  },
+  "N54": {
+    "diccionario": {
+      "1": "Diagnóstico de una enfermedad o problema de salud",
+      "2": "Un accidente o agresión",
+      "3": "Revisión",
+      "4": "Sólo dispensación de recetas",
+      "5": "Parte de baja, confirmación o alta",
+      "6": "Otros motivos",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Motivo principal de esta última consulta"
+  },
+  "N57": {
+    "diccionario": {
+      "1": "Sanidad Pública (Seguridad Social)",
+      "2": "Sociedad médica",
+      "3": "Consulta privada",
+      "4": "Otros (médico de empresa, etc.)",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dependencia funcional del médico"
+  },
+  "N58_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Visita durante los últimos 12 meses a: Fisioterapeuta"
+  },
+  "N58_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Visita durante los últimos 12 meses a: Psicólogo, psicoterapeuta o psiquiatra"
+  },
+  "N58_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Visita durante los últimos 12 meses a: Enfermero/a, matrona"
+  },
+  "N59": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Realización de análisis en los últimos 12 meses"
+  },
+  "N60_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Pruebas durante los últimos 12 meses: Radiografía"
+  },
+  "N60_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Pruebas durante los últimos 12 meses: TAC o escáner"
+  },
+  "N60_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Pruebas durante los últimos 12 meses: Ecografía"
+  },
+  "N60_4": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Pruebas durante los últimos 12 meses: Resonancia magnética"
+  },
+  "N60a_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Visitas durante los últimos 12 meses: Homeópata"
+  },
+  "N60a_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Visitas durante los últimos 12 meses: Acupuntor"
+  },
+  "N60a_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Visitas durante los últimos 12 meses: Naturista"
+  },
+  "N60a_4": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Visitas durante los últimos 12 meses: Otro profesional de medicina alternativa (osteópata, quiropráctico...)"
+  },
+  "N61_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Servicios asistenciales en los últimos 12 meses: Atención domiciliaria prestada por enfermero/a o matrona"
+  },
+  "N61_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Servicios asistenciales en los últimos 12 meses: Ayuda domiciliaria para las tareas domésticas o para las personas mayores"
+  },
+  "N61_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Servicios asistenciales en los últimos 12 meses: Comidas a domicilio para personas mayores"
+  },
+  "N61_4": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Servicios asistenciales en los últimos 12 meses: Servicios especiales de transporte a domicilio"
+  },
+  "N61_5": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Servicios asistenciales en los últimos 12 meses: Otros servicios de asistencia domiciliaria"
+  },
+  "N62": {
+    "diccionario": {
+      "1": "Hace 3 meses o menos",
+      "2": "Hace más de 3 meses y menos de 6",
+      "3": "Hace 6 meses o más pero menos de 12",
+      "4": "Hace 12 meses o más",
+      "5": "Nunca"
+    },
+    "Descripción": "Tiempo desde la última consulta al dentista, estomatólogo o higienista dental"
+  },
+  "N62b": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Nº de veces que visitó al dentista, estomatólogo o higienista dental en los últimos 3 meses"
+  },
+  "N63_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de asistencia: Revisión o chequeo"
+  },
+  "N63_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de asistencia: Limpieza de boca"
+  },
+  "N63_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de asistencia: Empastes (obturaciones), endodoncias "
+  },
+  "N63_4": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de asistencia: Extracción de algún diente/muela"
+  },
+  "N63_5": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de asistencia: Fundas, puentes u otro tipo de prótesis"
+  },
+  "N63_6": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de asistencia: Tratamiento de las enfermedades de las encías"
+  },
+  "N63_7": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de asistencia: Ortodoncia"
+  },
+  "N63_8": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de asistencia: Aplicación de flúor"
+  },
+  "N63_9": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de asistencia: Implantes"
+  },
+  "N63_10": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de asistencia: Otro tipo"
+  },
+  "N64": {
+    "diccionario": {
+      "1": "Sanidad Pública (Seguridad Social, Ayuntamiento, etc.)",
+      "2": "Sociedad médica",
+      "3": "Consulta privada",
+      "4": "Otros ",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Dependencia funcional del dentista consultado en la última visita"
+  },
+  "N65_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Estado de dientes y muelas: Tiene caries"
+  },
+  "N65_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Estado de dientes y muelas: Le han extraído dientes/muelas"
+  },
+  "N65_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Estado de dientes y muelas: Tiene dientes/muelas empastados (obturados)"
+  },
+  "N65_4": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Estado de dientes y muelas: Le sangran las encías al cepillarse o espontáneamente"
+  },
+  "N65_5": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Estado de dientes y muelas: Se le mueven los dientes/muelas"
+  },
+  "N65_6": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Estado de dientes y muelas: Lleva fundas (coronas), puentes, otras prótesis o dentadura postiza"
+  },
+  "N65_7": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Estado de dientes y muelas: Le faltan dientes/muelas que no han sido sustituidos por prótesis"
+  },
+  "N65_8": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Estado de dientes y muelas: Tiene o conserva todos sus dientes/muelas naturales"
+  },
+  "O66": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Ingreso en hospital en los últimos 12 meses, excluyendo parto o cesárea (doble enunciado)"
+  },
+  "O67": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Número de veces ingresado en un hospital en los últimos 12 meses, excluyendo parto o cesárea (doble enunciado)\n00 a 89\nSe permite el 00 para personas que están hospitalizadas en el momento de la entrevista y no han estado hospitalizadas más veces en los últimos 12 meses (regla Eurostat)"
+  },
+  "O68": {
+    "diccionario": {
+      "998": "No sabe",
+      "999": "No contesta"
+    },
+    "Descripción": "Número total de noches ingresado en un hospital en los últimos 12 meses, excluyendo parto o cesárea\n000 a 365\nSe permite el 000 para personas que están hospitalizadas en el momento de la entrevista y no han estado hospitalizadas más veces en los últimos 12 meses (regla Eurostat)"
+  },
+  "O69": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ingreso en hospital en los últimos 12 meses debido a parto o cesárea"
+  },
+  "O71": {
+    "diccionario": {
+      "1": "Intervención quirúrgica",
+      "2": "Estudio médico para diagnóstico",
+      "3": "Tratamiento médico sin intervención quirúrgica",
+      "4": "Parto (incluye cesárea)",
+      "5": "Otros motivos",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Motivo del último ingreso en el hospital"
+  },
+  "O74": {
+    "diccionario": {
+      "1": "Sanidad Pública (Seguridad Social)",
+      "2": "Mutualidad obligatoria (MUFACE, ISFAS, etc.)",
+      "3": "Sociedad médica privada",
+      "4": "A su propio cargo o de su hogar",
+      "5": "A cargo de otras personas, organismos o instituciones",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿A cargo de quién corrieron los gastos de hospitalización?"
+  },
+  "O75": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ingreso en hospital de día en los últimos 12 meses"
+  },
+  "O76": {
+    "diccionario": {
+      "998": "No sabe",
+      "999": "No contesta"
+    },
+    "Descripción": "Número de ingresos en un hospital de día en los últimos 12 meses\n001 a 365"
+  },
+  "O78": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Utilización del servicio de urgencias en los últimos 12 meses"
+  },
+  "O79": {
+    "diccionario": {
+      "998": "No sabe",
+      "999": "No contesta"
+    },
+    "Descripción": "Número de veces que utilizó el servicio de urgencias en los últimos 12 meses\n001 a 200"
+  },
+  "O80_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Lugar de atención del último servicio de urgencias: Lugar donde se encontraba"
+  },
+  "O80_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Lugar de atención del último servicio de urgencias: Unidad móvil"
+  },
+  "O80_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Lugar de atención del último servicio de urgencias: Centro o servicio de urgencias"
+  },
+  "O81_1": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Tiempo desde que se sintió enfermo hasta que pidió asistencia urgente (último servicio de urgencias utilizado): Días\n00 a 30"
+  },
+  "O81_2": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Tiempo desde que se sintió enfermo hasta que pidió asistencia urgente (último servicio de urgencias utilizado): Horas\n00 a 23"
+  },
+  "O81_3": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Tiempo desde que se sintió enfermo hasta que pidió asistencia urgente (último servicio de urgencias utilizado): Minutos\n00 a 59"
+  },
+  "O82_1": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Tiempo desde que pidió asistencia urgente hasta que fue atendido (último servicio de urgencias utilizado): Horas\n00 a 48"
+  },
+  "O82_2": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Tiempo desde que pidió asistencia urgente hasta que fue atendido (último servicio de urgencias utilizado): Minutos\n00 a 59"
+  },
+  "O83": {
+    "diccionario": {
+      "1": "Hospital de la Sanidad Pública (Seguridad Social)",
+      "2": "Centro o servicio de urgencias no hospitalario de la Sanidad Pública (Seguridad Social) ",
+      "3": "Sanatorio, hospital o clínica privada ",
+      "4": "Servicio privado de urgencias",
+      "5": "Casa de socorro o servicio de urgencias del ayuntamiento ",
+      "6": "Otro tipo de servicio  ",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de servicio de urgencias utilizado la última vez"
+  },
+  "O84_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Modalidad de seguro sanitario: Sanidad Pública (Seguridad Social)"
+  },
+  "O84_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Modalidad de seguro sanitario: Mutualidades del Estado (MUFACE, ISFAS, MUGEJU) acogidas a la Seguridad Social"
+  },
+  "O84_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Modalidad de seguro sanitario: Mutualidades del Estado (MUFACE, ISFAS, MUGEJU) acogidas a un seguro privado"
+  },
+  "O84_4": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Modalidad de seguro sanitario: Seguro médico privado, concertado individualmente (sociedades médicas, Colegios Profesionales...)"
+  },
+  "O84_5": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Modalidad de seguro sanitario: Seguro médico concertado por la empresa"
+  },
+  "O84_6": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Modalidad de seguro sanitario: No tiene seguro médico"
+  },
+  "O84_7": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Modalidad de seguro sanitario: Otras situaciones"
+  },
+  "O84_8": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Modalidad de seguro sanitario: No sabe"
+  },
+  "O84_9": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Modalidad de seguro sanitario: No contesta"
+  },
+  "P85": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Consumo de medicamentos recetados por un médico durante las dos últimas semanas"
+  },
+  "P86": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Consumo de medicamentos no recetados por un médico durante las dos últimas semanas"
+  },
+  "P87_1a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para el catarro, gripe, garganta, bronquios consumidas"
+  },
+  "P87_1b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para el catarro, gripe, garganta, bronquios recetadas"
+  },
+  "P87_2a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para el dolor consumidas                        "
+  },
+  "P87_2b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para el dolor recetadas                        "
+  },
+  "P87_3a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para bajar la fiebre consumidas            "
+  },
+  "P87_3b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para bajar la fiebre recetadas              "
+  },
+  "P87_4a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Reconstituyentes como vitaminas, minerales, tónicos consumidos"
+  },
+  "P87_4b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Reconstituyentes como vitaminas, minerales, tónicos recetados"
+  },
+  "P87_5a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Laxantes consumidos"
+  },
+  "P87_5b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Laxantes recetados"
+  },
+  "P87_6a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Antibióticos consumidos"
+  },
+  "P87_6b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Antibióticos recetados"
+  },
+  "P87_7a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tranquilizantes, relajantes, pastillas para dormir consumidos"
+  },
+  "P87_7b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tranquilizantes, relajantes, pastillas para dormir recetados"
+  },
+  "P87_8a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para la alergia consumidos"
+  },
+  "P87_8b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para la alergia recetados"
+  },
+  "P87_9a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para la diarrea consumidos"
+  },
+  "P87_9b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para la diarrea recetados"
+  },
+  "P87_10a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para el reuma consumidas"
+  },
+  "P87_10b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para el reuma recetadas"
+  },
+  "P87_11a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para el corazón consumidas"
+  },
+  "P87_11b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para el corazón recetadas"
+  },
+  "P87_12a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para la tensión arterial consumidas"
+  },
+  "P87_12b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para la tensión arterial recetadas"
+  },
+  "P87_13a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para el estómago y/o las alteraciones digestivas consumidas"
+  },
+  "P87_13b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicinas para el estómago y/o las alteraciones digestivas recetadas"
+  },
+  "P87_14a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Antidepresivos, estimulantes consumidos"
+  },
+  "P87_14b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Antidepresivos, estimulantes recetados"
+  },
+  "P87_15a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Píldoras para no quedar embarazada consumidas"
+  },
+  "P87_15b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Píldoras para no quedar embarazada recetadas"
+  },
+  "P87_16a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Hormonas para la menopausia consumidas"
+  },
+  "P87_16b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Hormonas para la menopausia recetadas  "
+  },
+  "P87_17a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para adelgazar consumidos"
+  },
+  "P87_17b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para adelgazar recetados"
+  },
+  "P87_18a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para bajar el colesterol consumidos"
+  },
+  "P87_18b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para bajar el colesterol recetados"
+  },
+  "P87_19a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para la diabetes consumidos"
+  },
+  "P87_19b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para la diabetes recetados"
+  },
+  "P87_20a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para el tiroides consumidos"
+  },
+  "P87_20b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medicamentos para el tiroides recetados"
+  },
+  "P87_21a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Productos homeopáticos consumidos"
+  },
+  "P87_21b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Productos homeopáticos recetados"
+  },
+  "P87_22a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Productos naturistas consumidos"
+  },
+  "P87_22b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Productos naturistas recetados"
+  },
+  "P87_23a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Otros medicamentos consumidos"
+  },
+  "P87_23b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Otros medicamentos recetados"
+  },
+  "Q88": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No"
+    },
+    "Descripción": "Vacunación de la gripe en la última campaña"
+  },
+  "Q89": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Toma de tensión arterial alguna vez por un profesional sanitario"
+  },
+  "Q90": {
+    "diccionario": {
+      "1": "En los últimos 12 meses",
+      "2": "Hace 1 año o más pero menos de 2 años",
+      "3": "Hace 2 años o más pero menos de 3 años",
+      "4": "Hace 3 años o más pero menos de 5 años",
+      "5": "Hace 5 años o más",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tiempo que hace de la última toma de tensión arterial"
+  },
+  "Q91": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medición del nivel de colesterol en sangre"
+  },
+  "Q92": {
+    "diccionario": {
+      "1": "En los últimos 12 meses",
+      "2": "Hace 1 año o más pero menos de 3 años",
+      "3": "Hace 3 años o más pero menos de 5 años",
+      "4": "Hace 5 años o más",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tiempo que hace de la última medición de colesterol"
+  },
+  "Q93": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Medición del nivel de azúcar en sangre por un profesional sanitario"
+  },
+  "Q94": {
+    "diccionario": {
+      "1": "En los últimos 12 meses",
+      "2": "Hace 1 año o más pero menos de 3 años",
+      "3": "Hace 3 años o más pero menos de 5 años",
+      "4": "Hace 5 años o más",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tiempo que hace de la última medición de azúcar en sangre"
+  },
+  "Q95": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Alguna vez le han hecho una prueba de sangre oculta en heces?"
+  },
+  "Q96": {
+    "diccionario": {
+      "1": "En los últimos 12 meses",
+      "2": "Hace 1 año o más pero menos de 2 años",
+      "3": "Hace 2 años o más pero menos de 3 años",
+      "4": "Hace 3 años o más pero menos de 5 años",
+      "5": "Hace 5 años o más",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tiempo que hace de la última prueba de sangre oculta en heces"
+  },
+  "Q98": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Le han realizado alguna vez una colonoscopia?"
+  },
+  "Q99": {
+    "diccionario": {
+      "1": "En los últimos 12 meses",
+      "2": "Hace 1 año o más pero menos de 5 años",
+      "3": "Hace 5 años o más pero menos de 10 años",
+      "4": "Hace 10 años o más",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tiempo que hace de la última colonoscopia"
+  },
+  "Q100": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Alguna vez le han hecho una mamografía?"
+  },
+  "Q101": {
+    "diccionario": {
+      "1": "En los últimos 12 meses",
+      "2": "Hace 1 año o más pero menos de 2 años",
+      "3": "Hace 2 años o más pero menos de 3 años",
+      "4": "Hace 3 años o más",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tiempo que hace de la última mamografía"
+  },
+  "Q103": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Alguna vez le han hecho una citología vaginal?"
+  },
+  "Q104": {
+    "diccionario": {
+      "1": "En los últimos 12 meses",
+      "2": "Hace 1 año o más pero menos de 2 años",
+      "3": "Hace 2 años o más pero menos de 3 años",
+      "4": "Hace 3 años o más pero menos de 5 años",
+      "5": "Hace 5 años o más",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tiempo que hace de la última citología"
+  },
+  "R106": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "3": "No he necesitado asistencia médica",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Falta de asistencia médica debido a listas de espera en los últimos 12 meses"
+  },
+  "R107": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "3": "No he necesitado asistencia médica",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Falta de asistencia médica debido a problemas de transporte en los últimos 12 meses"
+  },
+  "R108_1": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "3": "No lo he necesitado",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Falta de atención sanitaria debido a problemas económicos en los últimos 12 meses: Atención médica"
+  },
+  "R108_2": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "3": "No lo he necesitado",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Falta de atención sanitaria debido a problemas económicos en los últimos 12 meses: Atención dental"
+  },
+  "R108_3": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "3": "No lo he necesitado",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Falta de atención sanitaria debido a problemas económicos en los últimos 12 meses: Algún medicamento que le habían recetado"
+  },
+  "R108_4": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "3": "No lo he necesitado",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Falta de atención sanitaria debido a problemas económicos en los últimos 12 meses: Atención de salud mental"
+  },
+  "S109": {
+    "diccionario": {
+      "998": "No sabe",
+      "999": "No contesta"
+    },
+    "Descripción": "Altura en cm (50 a 220)"
+  },
+  "S110": {
+    "diccionario": {
+      "998": "No sabe",
+      "999": "No contesta"
+    },
+    "Descripción": "Peso en kg (25 a 180)"
+  },
+  "T111": {
+    "diccionario": {
+      "1": "Sentado/a la mayor parte de la jornada",
+      "2": "De pie la mayor parte de la jornada sin efectuar grandes desplazamientos o esfuerzos",
+      "3": "Caminando, llevando algún peso, efectuando desplazamientos frecuentes",
+      "4": "Realizando tareas que requieren gran esfuerzo físico",
+      "5": "No aplicable",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Tipo de actividad física que realiza en la actividad principal"
+  },
+  "T112": {
+    "diccionario": {
+      "1": "No hago ejercicio. El tiempo libre lo ocupo de forma casi completamente sedentaria",
+      "2": "Hago alguna actividad física o deportiva ocasional",
+      "3": "Hago actividad física varias veces al mes",
+      "4": "Hago entrenamiento deportivo o físico varias veces a la semana",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia con la que realiza alguna actividad física en su tiempo libre"
+  },
+  "T113": {
+    "diccionario": {
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Forma de llegar a los sitios: Número de días en que camina al menos 10 minutos seguidos\n0 a 7"
+  },
+  "T114": {
+    "diccionario": {
+      "1": "De 10 a 29 minutos ",
+      "2": "De 30 a 59 minutos",
+      "3": "Una hora o más  pero menos de 2 horas",
+      "4": "Dos horas o más pero menos de 3 horas",
+      "5": "Tres horas o más ",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Forma de llegar a los sitios: Tiempo dedicado a caminar para desplazarse en un día habitual"
+  },
+  "T115": {
+    "diccionario": {
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Forma de llegar a los sitios: Número de días en que utiliza la bicicleta al menos 10 minutos seguidos\n0 a7"
+  },
+  "T116": {
+    "diccionario": {
+      "1": "De 10 a 29 minutos ",
+      "2": "De 30 a 59 minutos",
+      "3": "Una hora o más  pero menos de 2 horas",
+      "4": "Dos horas o más pero menos de 3 horas",
+      "5": "Tres horas o más ",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Forma de llegar a los sitios: Tiempo empleado en la bicicleta para desplazarse en un día habitual"
+  },
+  "T117": {
+    "diccionario": {
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ejercicio físico en tiempo de ocio: Número de días en que practica deporte al menos 10 minutos seguidos"
+  },
+  "T118_1": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Ejercicio físico en tiempo de ocio: Tiempo (en horas) dedicado a hacer deporte en una semana habitual\n00 a 90"
+  },
+  "T118_2": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Ejercicio físico en tiempo de ocio: Tiempo (en minutos) dedicado a hacer deporte en una semana habitual\n00 a 59"
+  },
+  "T119": {
+    "diccionario": {
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ejercicio físico en tiempo de ocio: Número de días en que realiza actividades destinadas a fortalecer los músculos\n0 a 7"
+  },
+  "T119b_1": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Sedentarismo : tiempo que permanece sentado a lo largo de un día normal. Horas "
+  },
+  "T119b_2": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Sedentarismo : tiempo que permanece sentado a lo largo de un día normal. Minutos"
+  },
+  "U120_1": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de fruta fresca (excluyendo zumos)"
+  },
+  "U120_1a": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de fruta fresca (excluyendo zumos): Cantidad (01 a 10)"
+  },
+  "U120_2": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de carne (pollo, ternera, cerdo, cordero, etc.)"
+  },
+  "U120_3": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de huevos "
+  },
+  "U120_4": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de pescado"
+  },
+  "U120_5": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de pasta, arroz, patatas"
+  },
+  "U120_6": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de pan, cereales  "
+  },
+  "U120_7": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de verduras, ensaladas y hortalizas"
+  },
+  "U120_7a": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de verduras, ensaladas y hortalizas: Cantidad\n01 a 10"
+  },
+  "U120_8": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de legumbres"
+  },
+  "U120_9": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de embutidos y fiambres"
+  },
+  "U120_10": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de productos lácteos (leche, queso, yogur)"
+  },
+  "U120_11": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de dulces (galletas, bollería, mermeladas, etc.)"
+  },
+  "U120_12": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de refrescos con azúcar "
+  },
+  "U120_13": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de comida rápida (pollo frito, bocadillos, pizzas, hamburguesas)"
+  },
+  "U120_14": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de aperitivos o comidas saladas de picar (patatas fritas, ganchitos, galletitas saladas)"
+  },
+  "U120_15": {
+    "diccionario": {
+      "1": "Una o más veces al día",
+      "2": "De 4 a 6 veces a la semana",
+      "3": "Tres veces a la semana",
+      "4": "Una o dos veces a la semana",
+      "5": "Menos de una vez a la semana",
+      "6": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de zumo natural de frutas o verduras"
+  },
+  "U120_15a": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de zumo natural de frutas o verduras: Cantidad\n01 a 10"
+  },
+  "U120FZ": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia diaria de consumo de fruta fresca o zumos naturales"
+  },
+  "U120CANTFZ": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de fruta fresca o zumo natural de frutas o verduras: Cantidad\n01 a 10"
+  },
+  "V121": {
+    "diccionario": {
+      "1": "Sí, fumo a diario",
+      "2": "Sí fumo, pero no a diario",
+      "3": "No fumo actualmente, pero he fumado antes",
+      "4": "No fumo ni he fumado nunca de manera habitual",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿Fuma actualmente?"
+  },
+  "V123": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Fumadores a diario: Número de cigarrillos que fuma al día\n01 a 90"
+  },
+  "V124": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Fumadores a diario: Edad en que comenzó a fumar\n06 a 90"
+  },
+  "V124a": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Ex fumador diario"
+  },
+  "V124b": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Fumador o ex fumador diario: tiempo como fumador  (doble enunciado)"
+  },
+  "V126": {
+    "diccionario": {
+      "1": "Nunca o casi nunca",
+      "2": "Menos de una hora al día",
+      "3": "Entre 1 y 5 horas al día",
+      "4": "Más de 5 horas al día",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia de exposición a ambientes de humo en lugares cerrados"
+  },
+  "V126a": {
+    "diccionario": {
+      "1": "Menos de una hora al día",
+      "2": "Entre 1 y 5 horas al día ",
+      "3": "Más de 5 horas al día ",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia diaria  exposición a ambientes de humo en lugares cerrados"
+  },
+  "V126b": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No actualmente, pero sí lo he hecho con anterioridad ",
+      "3": "Nunca",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Uso cigarrillos o aparatos electrónicos"
+  },
+  "V126c": {
+    "diccionario": {
+      "1": "Diariamente",
+      "2": "Ocasionalmente",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Frecuencia uso cigarrillos electronicos o similares "
+  },
+  "W127": {
+    "diccionario": {
+      "01": "A diario o casi a diario",
+      "02": "5-6 días por semana",
+      "03": "3-4 días por semana",
+      "04": "1-2 días por semana",
+      "05": "2-3 días en un mes",
+      "06": "Una vez al mes",
+      "07": "Menos de una vez al mes",
+      "08": "No en los últimos 12 meses, he dejado de tomar alcohol",
+      "09": "Nunca o solamente unos sorbos para probarlo a lo largo de toda la vida",
+      "98": "No Sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de alcohol en los últimos 12 meses"
+  },
+  "W128Cer": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Consumo de cerveza con alcohol"
+  },
+  "W128Cer_1": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de cerveza con alcohol: Lunes (00 a 50)"
+  },
+  "W128Cer_2": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de cerveza con alcohol: Martes 00 a 50"
+  },
+  "W128Cer_3": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de cerveza con alcohol: Miércoles (00 a 50)"
+  },
+  "W128Cer_4": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de cerveza con alcohol: Jueves (00 a 50)"
+  },
+  "W128Cer_5": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de cerveza con alcohol: Viernes\n (00 a 50)"
+  },
+  "W128Cer_6": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de cerveza con alcohol: Sábado (00 a 50) "
+  },
+  "W128Cer_7": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de cerveza con alcohol: Domingo (00 a 50)"
+  },
+  "W128Vin": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Consumo de vinos, cava"
+  },
+  "W128Vin_1": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vinos, cava: Lunes (00 a 50)"
+  },
+  "W128Vin_2": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vinos, cava: Martes (00 a 50)"
+  },
+  "W128Vin_3": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vinos, cava: Miércoles (00 a 50)"
+  },
+  "W128Vin_4": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vinos, cava: Jueves\n (00 a 50)"
+  },
+  "W128Vin_5": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vinos, cava: Viernes\n (00 a 50)"
+  },
+  "W128Vin_6": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vinos, cava: Sábado\n (00 a 50)"
+  },
+  "W128Vin_7": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vinos, cava: Domingo\n (00 a 50)"
+  },
+  "W128Vermut": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Consumo de vermuts, fino, jerez"
+  },
+  "W128Vermut_1": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vermuts, fino, jerez: Lunes\n (00 a 30)"
+  },
+  "W128Vermut_2": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vermuts, fino, jerez: Martes\n (00 a 30)"
+  },
+  "W128Vermut_3": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vermuts, fino, jerez: Miércoles\n (00 a 30)"
+  },
+  "W128Vermut_4": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vermuts, fino, jerez: Jueves\n (00 a 30)"
+  },
+  "W128Vermut_5": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vermuts, fino, jerez: Viernes\n (00 a 30)"
+  },
+  "W128Vermut_6": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vermuts, fino, jerez: Sábado\n (00 a 30)"
+  },
+  "W128Vermut_7": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de vermuts, fino, jerez: Domingo\n00 a 30"
+  },
+  "W128Lic": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Consumo de licores, anís, pacharán"
+  },
+  "W128Lic_1": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de licores, anís, pacharán: Lunes\n00 a 30"
+  },
+  "W128Lic_2": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de licores, anís, pacharán: Martes\n00 a 30"
+  },
+  "W128Lic_3": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de licores, anís, pacharán: Miércoles\n00 a 30"
+  },
+  "W128Lic_4": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de licores, anís, pacharán: Jueves\n00 a 30"
+  },
+  "W128Lic_5": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de licores, anís, pacharán: Viernes\n00 a 30"
+  },
+  "W128Lic_6": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de licores, anís, pacharán: Sábado\n00 a 30"
+  },
+  "W128Lic_7": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de licores, anís, pacharán: Domingo\n00 a 30"
+  },
+  "W128Comb": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Consumo de combinados, bebidas destiladas"
+  },
+  "W128Comb_1": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de combinados, bebidas destiladas: Lunes\n00 a 30"
+  },
+  "W128Comb_2": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de combinados, bebidas destiladas: Martes\n00 a 30"
+  },
+  "W128Comb_3": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de combinados, bebidas destiladas: Miércoles\n00 a 30"
+  },
+  "W128Comb_4": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de combinados, bebidas destiladas: Jueves\n00 a 30"
+  },
+  "W128Comb_5": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de combinados, bebidas destiladas: Viernes\n00 a 30"
+  },
+  "W128Comb_6": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de combinados, bebidas destiladas: Sábado\n00 a 30"
+  },
+  "W128Comb_7": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de combinados, bebidas destiladas: Domingo\n00 a 30"
+  },
+  "W128Sidra": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Consumo de bebidas locales, sidra, carajillo"
+  },
+  "W128Sidra_1": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de bebidas locales, sidra, carajillo: Lunes\n00 a 30"
+  },
+  "W128Sidra_2": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de bebidas locales, sidra, carajillo: Martes\n00 a 30"
+  },
+  "W128Sidra_3": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de bebidas locales, sidra, carajillo: Miércoles"
+  },
+  "W128Sidra_4": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de bebidas locales, sidra, carajillo: Jueves\n00 a 30"
+  },
+  "W128Sidra_5": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de bebidas locales, sidra, carajillo: Viernes\n00 a 30"
+  },
+  "W128Sidra_6": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de bebidas locales, sidra, carajillo: Sábado\n00 a 30"
+  },
+  "W128Sidra_7": {
+    "diccionario": {
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Consumo de bebidas locales, sidra, carajillo: Domingo\n00 a 30\n"
+  },
+  "W129": {
+    "diccionario": {
+      "01": "A diario o casi a diario",
+      "02": "De 5 a 6 días por semana",
+      "03": "De 3 a 4 días por semana",
+      "04": "De 1 a 2 días por semana",
+      "05": "De 2 a 3 días en un mes",
+      "06": "Una vez al mes",
+      "07": "Menos de una vez al mes",
+      "08": "No en los últimos 12 meses",
+      "09": "Nunca en toda mi vida",
+      "98": "No sabe",
+      "99": "No contesta"
+    },
+    "Descripción": "Frecuencia de consumo de 5-6 o más bebidas alcohólicas estándar en una misma ocasión durante los últimos 12 meses (doble enunciado)"
+  },
+  "X130": {
+    "diccionario": {
+      "1": "Ninguna",
+      "2": "Una o dos personas",
+      "3": "De 3 a 5 personas",
+      "4": "Más de 5 personas",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "En caso de problema personal grave, ¿con cuántas personas podría contar?"
+  },
+  "X131": {
+    "diccionario": {
+      "1": "Mucho",
+      "2": "Algo",
+      "3": "Ni mucho ni poco",
+      "4": "Poco",
+      "5": "Nada",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿En qué medida se interesan otras personas por lo que a usted le pasa?"
+  },
+  "X132": {
+    "diccionario": {
+      "1": "Muy fácil",
+      "2": "Fácil",
+      "3": "Es posible",
+      "4": "Difícil",
+      "5": "Muy difícil",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "¿En qué medida le resulta fácil obtener ayuda de los vecinos en caso de necesidad?"
+  },
+  "Y133": {
+    "diccionario": {
+      "1": "Sí",
+      "2": "No",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Cuidado de personas mayores o de alguien que tenga una dolencia crónica al menos una vez a la semana"
+  },
+  "Y134": {
+    "diccionario": {
+      "1": "Familiares",
+      "2": "Otras personas",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Cuidado de personas: Parentesco con el cuidador"
+  },
+  "Y135": {
+    "diccionario": {
+      "1": "Menos de 10 horas a la semana",
+      "2": "10 horas o más a la semana pero menos de 20",
+      "3": "20 horas o más a la semana",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Cuidado de personas: Horas a la semana dedicadas en total"
+  },
+  "CLASE_PR": {
+    "diccionario": {
+      "1": "Directores/as y gerentes de establecimientos de 10 o más asalariados/as y profesionales tradicionalmente asociados/as a las licenciaturas universitarias",
+      "2": "Directores/as y gerentes de establecimientos de menos de 10 asalariados/ as y profesionales tradicionalmente asociados/as a diplomaturas universitarias y otros/as profesionales de apoyo técnico. Deportistas y artistas",
+      "3": "Ocupaciones intermedias y trabajadores/as por cuenta propia",
+      "4": "Supervisores/as y trabajadores/as en ocupaciones técnicas cualificadas",
+      "5": "Trabajadores/as cualificados/as del sector primario y otros/as trabajadores/as semi-cualificados/as",
+      "6": "Trabajadores/as no cualificados/as",
+      "8": "No sabe",
+      "9": "No contesta"
+    },
+    "Descripción": "Variable derivada: Clase social basada en la ocupación de la persona de referencia"
+  },
+  "IMC": {
+    "diccionario": {
+      "1": "Peso insuficiente",
+      "2": "Normopeso",
+      "3": "Sobrepeso",
+      "4": "Obesidad",
+      "9": "No consta"
+    },
+    "Descripción": "Variable derivada: Índice de masa corporal (IMC) "
+  },
+  "CMD1": {
+    "diccionario": {
+      "999": "No consta"
+    },
+    "Descripción": "Variable derivada: Consumo medio diario de alcohol semanal (lunes a domingo)\n000 a 300 (3 enteros, 2 decimales)\n"
+  },
+  "CMD2": {
+    "diccionario": {
+      "999": "No consta"
+    },
+    "Descripción": "Variable derivada: Consumo medio diario de alcohol entre semana (lunes a jueves)\n000 a 300 (3 enteros, 2 decimales)\n"
+  },
+  "CMD3": {
+    "diccionario": {
+      "999": "No consta"
+    },
+    "Descripción": "Variable derivada: Consumo medio diario de alcohol en fin de semana (viernes a domingo)\n000 a 300 (3 enteros, 2 decimales)\n"
+  },
+  "SEVERIDAD_DEPRESIVA": {
+    "diccionario": {
+      "1": "Ninguna",
+      "2": "Leve",
+      "3": "Moderada",
+      "4": "Moderadamente Grave",
+      "5": "Grave",
+      "9": "No consta"
+    },
+    "Descripción": "Variable derivada: Severidad de la sintomatología depresiva"
+  },
+  "CUADROS_DEPRESIVOS": {
+    "diccionario": {
+      "1": "Cuadro depresivo mayor",
+      "2": "Otros cuadros depresivos",
+      "3": "Sin cuadro depresivo alguno",
+      "9": "No consta"
+    },
+    "Descripción": "Variable derivada: Prevalencia de cuadros depresivos activos"
+  }
+}
