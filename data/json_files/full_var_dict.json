@@ -40,9 +40,7 @@
   "PROXY_0": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "¿El informante es la persona seleccionada?"
   },
@@ -57,9 +55,7 @@
   "PROXY_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Informante proxy: ¿Es miembro del hogar el informante?"
   },
@@ -120,28 +116,28 @@
   "E2_1a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Nacionalidad: Española"
   },
   "E2_1b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Nacionalidad: Extranjera"
   },
   "E2_1c": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Nacionalidad: No sabe"
   },
   "E2_1d": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Nacionalidad: No contesta"
   },
@@ -204,9 +200,7 @@
   "F7": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Adulto seleccionado: ¿Ha trabajado antes?"
   },
@@ -692,9 +686,7 @@
   "F12": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Adulto seleccionado: ¿Ha trabajado antes?"
   },
@@ -1708,9 +1700,7 @@
   "G22": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Enfermedad o problema de salud crónicos o de larga duración"
   },
@@ -1749,909 +1739,707 @@
   "G25a_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Tensión alta"
   },
   "G25b_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Tensión alta"
   },
   "G25c_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Tensión alta"
   },
   "G25a_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Infarto de miocardio"
   },
   "G25b_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Infarto de miocardio"
   },
   "G25c_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Infarto de miocardio"
   },
   "G25d_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Secuelas : Ha padecido secuelas del infarto de miocardio"
   },
   "G25a_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Angina de pecho, enfermedad coronaria"
   },
   "G25b_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Angina de pecho, enfermedad coronaria"
   },
   "G25c_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Angina de pecho, enfermedad coronaria"
   },
   "G25a_4": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Otras enfermedades del corazón"
   },
   "G25b_4": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Otras enfermedades del corazón"
   },
   "G25c_4": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Otras enfermedades del corazón"
   },
   "G25a_5": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Varices en las piernas"
   },
   "G25b_5": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Varices en las piernas"
   },
   "G25c_5": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Varices en las piernas"
   },
   "G25a_6": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Artrosis (excluyendo artritis)"
   },
   "G25b_6": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Artrosis (excluyendo artritis)"
   },
   "G25c_6": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Artrosis (excluyendo artritis)"
   },
   "G25a_7": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Dolor de espalda crónico (cervical)"
   },
   "G25b_7": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Dolor de espalda crónico (cervical)"
   },
   "G25c_7": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Dolor de espalda crónico (cervical)"
   },
   "G25a_8": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Dolor de espalda crónico (lumbar)"
   },
   "G25b_8": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Dolor de espalda crónico (lumbar)"
   },
   "G25c_8": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Dolor de espalda crónico (lumbar)"
   },
   "G25a_9": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Alergia crónica, como rinitis, conjuntivitis o dermatitis alérgica, alergia alimentaria o de otro tipo (asma alérgica excluida)"
   },
   "G25b_9": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Alergia crónica, como rinitis, conjuntivitis o dermatitis alérgica, alergia alimentaria o de otro tipo (asma alérgica excluida)"
   },
   "G25c_9": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Alergia crónica, como rinitis, conjuntivitis o dermatitis alérgica, alergia alimentaria o de otro tipo (asma alérgica excluida)"
   },
   "G25a_10": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Asma (incluida asma alérgica)"
   },
   "G25b_10": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Asma (incluida asma alérgica)"
   },
   "G25c_10": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Asma (incluida asma alérgica)"
   },
   "G25a_11": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Bronquitis crónica, enfisema, enfermedad pulmonar obstructiva crónica (EPOC)"
   },
   "G25b_11": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Bronquitis crónica, enfisema, enfermedad pulmonar obstructiva crónica (EPOC)"
   },
   "G25c_11": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Bronquitis crónica, enfisema, enfermedad pulmonar obstructiva crónica (EPOC)"
   },
   "G25a_12": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Diabetes"
   },
   "G25b_12": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Diabetes"
   },
   "G25c_12": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Diabetes"
   },
   "G25a_13": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Úlcera de estómago o duodeno"
   },
   "G25b_13": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Úlcera de estómago o duodeno"
   },
   "G25c_13": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Úlcera de estómago o duodeno"
   },
   "G25a_14": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Incontinencia urinaria o problemas de control de la orina"
   },
   "G25b_14": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Incontinencia urinaria o problemas de control de la orina"
   },
   "G25c_14": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Incontinencia urinaria o problemas de control de la orina"
   },
   "G25a_15": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Colesterol alto"
   },
   "G25b_15": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Colesterol alto"
   },
   "G25c_15": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Colesterol alto"
   },
   "G25a_16": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Cataratas"
   },
   "G25b_16": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Cataratas"
   },
   "G25c_16": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Cataratas"
   },
   "G25a_17": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Problemas crónicos de piel"
   },
   "G25b_17": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Problemas crónicos de piel"
   },
   "G25c_17": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Problemas crónicos de piel"
   },
   "G25a_18": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Estreñimiento crónico"
   },
   "G25b_18": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Estreñimiento crónico"
   },
   "G25c_18": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Estreñimiento crónico"
   },
   "G25a_19": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Cirrosis, disfunción hepática"
   },
   "G25b_19": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Cirrosis, disfunción hepática"
   },
   "G25c_19": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Cirrosis, disfunción hepática"
   },
   "G25a_20": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Depresión"
   },
   "G25b_20": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Depresión"
   },
   "G25c_20": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Depresión"
   },
   "G25a_21": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Ansiedad crónica "
   },
   "G25b_21": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Ansiedad crónica "
   },
   "G25c_21": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Ansiedad crónica "
   },
   "G25a_22": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Otros problemas mentales"
   },
   "G25b_22": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Otros problemas mentales"
   },
   "G25c_22": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Otros problemas mentales"
   },
   "G25a_23": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Ictus (embolia, infarto cerebral, hemorragia cerebral)"
   },
   "G25b_23": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Ictus (embolia, infarto cerebral, hemorragia cerebral)"
   },
   "G25c_23": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Ictus (embolia, infarto cerebral, hemorragia cerebral)"
   },
   "G25d_23": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Secuelas: Ictus (embolia, infarto cerebral, hemorragia cerebral)"
   },
   "G25a_24": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Migraña o dolor de cabeza frecuente"
   },
   "G25b_24": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Migraña o dolor de cabeza frecuente"
   },
   "G25c_24": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Migraña o dolor de cabeza frecuente"
   },
   "G25a_25": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Hemorroides"
   },
   "G25b_25": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Hemorroides"
   },
   "G25c_25": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Hemorroides"
   },
   "G25a_26": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Tumores malignos"
   },
   "G25b_26": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Tumores malignos"
   },
   "G25c_26": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Tumores malignos"
   },
   "G25a_27": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Osteoporosis"
   },
   "G25b_27": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Osteoporosis"
   },
   "G25c_27": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Osteoporosis"
   },
   "G25a_28": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Problemas de tiroides"
   },
   "G25b_28": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Problemas de tiroides"
   },
   "G25c_28": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Problemas de tiroides"
   },
   "G25a_29": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Problemas de riñón"
   },
   "G25b_29": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Problemas de riñón"
   },
   "G25c_29": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Problemas de riñón"
   },
   "G25a_30": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Problemas de próstata (solo hombres)"
   },
   "G25b_30": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Problemas de próstata (solo hombres)"
   },
   "G25c_30": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Problemas de próstata (solo hombres)"
   },
   "G25a_31": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Problemas del periodo menopáusico (solo mujeres)"
   },
   "G25b_31": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Problemas del periodo menopáusico (solo mujeres)"
   },
   "G25c_31": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Problemas del periodo menopáusico (solo mujeres)"
   },
   "G25a_32": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido alguna vez: Lesiones o defectos permanentes causados por un accidente"
   },
   "G25b_32": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha padecido en los últimos 12 meses: Lesiones o defectos permanentes causados por un accidente"
   },
   "G25c_32": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Diagnóstico médico: Lesiones o defectos permanentes causados por un accidente"
   },
   "H26_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha tenido en los últimos 12 meses: Accidente de tráfico"
   },
   "H26_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha tenido en los últimos 12 meses: Accidente en casa"
   },
   "H26_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ha tenido en los últimos 12 meses: Accidente durante su tiempo libre"
   },
@@ -2669,9 +2457,7 @@
   "J30": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ausencias del trabajo en los últimos 12 meses por problemas de salud"
   },
@@ -3073,153 +2859,119 @@
   "N58_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Visita durante los últimos 12 meses a: Fisioterapeuta"
   },
   "N58_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Visita durante los últimos 12 meses a: Psicólogo, psicoterapeuta o psiquiatra"
   },
   "N58_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Visita durante los últimos 12 meses a: Enfermero/a, matrona"
   },
   "N59": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Realización de análisis en los últimos 12 meses"
   },
   "N60_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Pruebas durante los últimos 12 meses: Radiografía"
   },
   "N60_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Pruebas durante los últimos 12 meses: TAC o escáner"
   },
   "N60_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Pruebas durante los últimos 12 meses: Ecografía"
   },
   "N60_4": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Pruebas durante los últimos 12 meses: Resonancia magnética"
   },
   "N60a_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Visitas durante los últimos 12 meses: Homeópata"
   },
   "N60a_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Visitas durante los últimos 12 meses: Acupuntor"
   },
   "N60a_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Visitas durante los últimos 12 meses: Naturista"
   },
   "N60a_4": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Visitas durante los últimos 12 meses: Otro profesional de medicina alternativa (osteópata, quiropráctico...)"
   },
   "N61_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Servicios asistenciales en los últimos 12 meses: Atención domiciliaria prestada por enfermero/a o matrona"
   },
   "N61_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Servicios asistenciales en los últimos 12 meses: Ayuda domiciliaria para las tareas domésticas o para las personas mayores"
   },
   "N61_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Servicios asistenciales en los últimos 12 meses: Comidas a domicilio para personas mayores"
   },
   "N61_4": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Servicios asistenciales en los últimos 12 meses: Servicios especiales de transporte a domicilio"
   },
   "N61_5": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Servicios asistenciales en los últimos 12 meses: Otros servicios de asistencia domiciliaria"
   },
@@ -3243,90 +2995,70 @@
   "N63_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tipo de asistencia: Revisión o chequeo"
   },
   "N63_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tipo de asistencia: Limpieza de boca"
   },
   "N63_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tipo de asistencia: Empastes (obturaciones), endodoncias "
   },
   "N63_4": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tipo de asistencia: Extracción de algún diente/muela"
   },
   "N63_5": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tipo de asistencia: Fundas, puentes u otro tipo de prótesis"
   },
   "N63_6": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tipo de asistencia: Tratamiento de las enfermedades de las encías"
   },
   "N63_7": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tipo de asistencia: Ortodoncia"
   },
   "N63_8": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tipo de asistencia: Aplicación de flúor"
   },
   "N63_9": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tipo de asistencia: Implantes"
   },
   "N63_10": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tipo de asistencia: Otro tipo"
   },
@@ -3344,79 +3076,63 @@
   "N65_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Estado de dientes y muelas: Tiene caries"
   },
   "N65_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Estado de dientes y muelas: Le han extraído dientes/muelas"
   },
   "N65_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Estado de dientes y muelas: Tiene dientes/muelas empastados (obturados)"
   },
   "N65_4": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Estado de dientes y muelas: Le sangran las encías al cepillarse o espontáneamente"
   },
   "N65_5": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Estado de dientes y muelas: Se le mueven los dientes/muelas"
   },
   "N65_6": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Estado de dientes y muelas: Lleva fundas (coronas), puentes, otras prótesis o dentadura postiza"
   },
   "N65_7": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Estado de dientes y muelas: Le faltan dientes/muelas que no han sido sustituidos por prótesis"
   },
   "N65_8": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Estado de dientes y muelas: Tiene o conserva todos sus dientes/muelas naturales"
   },
   "O66": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Ingreso en hospital en los últimos 12 meses, excluyendo parto o cesárea (doble enunciado)"
   },
@@ -3437,9 +3153,7 @@
   "O69": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ingreso en hospital en los últimos 12 meses debido a parto o cesárea"
   },
@@ -3470,9 +3184,7 @@
   "O75": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ingreso en hospital de día en los últimos 12 meses"
   },
@@ -3486,7 +3198,7 @@
   "O78": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Utilización del servicio de urgencias en los últimos 12 meses"
   },
@@ -3500,27 +3212,21 @@
   "O80_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Lugar de atención del último servicio de urgencias: Lugar donde se encontraba"
   },
   "O80_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Lugar de atención del último servicio de urgencias: Unidad móvil"
   },
   "O80_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Lugar de atención del último servicio de urgencias: Centro o servicio de urgencias"
   },
@@ -3575,509 +3281,413 @@
   "O84_1": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Modalidad de seguro sanitario: Sanidad Pública (Seguridad Social)"
   },
   "O84_2": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Modalidad de seguro sanitario: Mutualidades del Estado (MUFACE, ISFAS, MUGEJU) acogidas a la Seguridad Social"
   },
   "O84_3": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Modalidad de seguro sanitario: Mutualidades del Estado (MUFACE, ISFAS, MUGEJU) acogidas a un seguro privado"
   },
   "O84_4": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Modalidad de seguro sanitario: Seguro médico privado, concertado individualmente (sociedades médicas, Colegios Profesionales...)"
   },
   "O84_5": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Modalidad de seguro sanitario: Seguro médico concertado por la empresa"
   },
   "O84_6": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Modalidad de seguro sanitario: No tiene seguro médico"
   },
   "O84_7": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Modalidad de seguro sanitario: Otras situaciones"
   },
   "O84_8": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Modalidad de seguro sanitario: No sabe"
   },
   "O84_9": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Modalidad de seguro sanitario: No contesta"
   },
   "P85": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Consumo de medicamentos recetados por un médico durante las dos últimas semanas"
   },
   "P86": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Consumo de medicamentos no recetados por un médico durante las dos últimas semanas"
   },
   "P87_1a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para el catarro, gripe, garganta, bronquios consumidas"
   },
   "P87_1b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para el catarro, gripe, garganta, bronquios recetadas"
   },
   "P87_2a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para el dolor consumidas                        "
   },
   "P87_2b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para el dolor recetadas                        "
   },
   "P87_3a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para bajar la fiebre consumidas            "
   },
   "P87_3b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para bajar la fiebre recetadas              "
   },
   "P87_4a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Reconstituyentes como vitaminas, minerales, tónicos consumidos"
   },
   "P87_4b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Reconstituyentes como vitaminas, minerales, tónicos recetados"
   },
   "P87_5a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Laxantes consumidos"
   },
   "P87_5b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Laxantes recetados"
   },
   "P87_6a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Antibióticos consumidos"
   },
   "P87_6b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Antibióticos recetados"
   },
   "P87_7a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tranquilizantes, relajantes, pastillas para dormir consumidos"
   },
   "P87_7b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Tranquilizantes, relajantes, pastillas para dormir recetados"
   },
   "P87_8a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para la alergia consumidos"
   },
   "P87_8b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para la alergia recetados"
   },
   "P87_9a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para la diarrea consumidos"
   },
   "P87_9b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para la diarrea recetados"
   },
   "P87_10a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para el reuma consumidas"
   },
   "P87_10b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para el reuma recetadas"
   },
   "P87_11a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para el corazón consumidas"
   },
   "P87_11b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para el corazón recetadas"
   },
   "P87_12a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para la tensión arterial consumidas"
   },
   "P87_12b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para la tensión arterial recetadas"
   },
   "P87_13a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para el estómago y/o las alteraciones digestivas consumidas"
   },
   "P87_13b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicinas para el estómago y/o las alteraciones digestivas recetadas"
   },
   "P87_14a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Antidepresivos, estimulantes consumidos"
   },
   "P87_14b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Antidepresivos, estimulantes recetados"
   },
   "P87_15a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Píldoras para no quedar embarazada consumidas"
   },
   "P87_15b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Píldoras para no quedar embarazada recetadas"
   },
   "P87_16a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Hormonas para la menopausia consumidas"
   },
   "P87_16b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Hormonas para la menopausia recetadas  "
   },
   "P87_17a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para adelgazar consumidos"
   },
   "P87_17b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para adelgazar recetados"
   },
   "P87_18a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para bajar el colesterol consumidos"
   },
   "P87_18b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para bajar el colesterol recetados"
   },
   "P87_19a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para la diabetes consumidos"
   },
   "P87_19b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para la diabetes recetados"
   },
   "P87_20a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para el tiroides consumidos"
   },
   "P87_20b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medicamentos para el tiroides recetados"
   },
   "P87_21a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Productos homeopáticos consumidos"
   },
   "P87_21b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Productos homeopáticos recetados"
   },
   "P87_22a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Productos naturistas consumidos"
   },
   "P87_22b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Productos naturistas recetados"
   },
   "P87_23a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Otros medicamentos consumidos"
   },
   "P87_23b": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Otros medicamentos recetados"
   },
   "Q88": {
     "diccionario": {
       "1": "Sí",
-      "2": "No"
+      "0": "No"
     },
     "Descripción": "Vacunación de la gripe en la última campaña"
   },
   "Q89": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Toma de tensión arterial alguna vez por un profesional sanitario"
   },
@@ -4096,9 +3706,7 @@
   "Q91": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medición del nivel de colesterol en sangre"
   },
@@ -4116,9 +3724,7 @@
   "Q93": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Medición del nivel de azúcar en sangre por un profesional sanitario"
   },
@@ -4136,9 +3742,7 @@
   "Q95": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "¿Alguna vez le han hecho una prueba de sangre oculta en heces?"
   },
@@ -4157,9 +3761,7 @@
   "Q98": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "¿Le han realizado alguna vez una colonoscopia?"
   },
@@ -4177,9 +3779,7 @@
   "Q100": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "¿Alguna vez le han hecho una mamografía?"
   },
@@ -4197,9 +3797,7 @@
   "Q103": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "¿Alguna vez le han hecho una citología vaginal?"
   },
@@ -4611,9 +4209,7 @@
   "U120FZ": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Frecuencia diaria de consumo de fruta fresca o zumos naturales"
   },
@@ -4652,9 +4248,7 @@
   "V124a": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Ex fumador diario"
   },
@@ -4724,9 +4318,7 @@
   "W128Cer": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Consumo de cerveza con alcohol"
   },
@@ -4782,9 +4374,7 @@
   "W128Vin": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Consumo de vinos, cava"
   },
@@ -4840,9 +4430,7 @@
   "W128Vermut": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Consumo de vermuts, fino, jerez"
   },
@@ -4898,9 +4486,7 @@
   "W128Lic": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Consumo de licores, anís, pacharán"
   },
@@ -4956,9 +4542,7 @@
   "W128Comb": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Consumo de combinados, bebidas destiladas"
   },
@@ -5014,9 +4598,7 @@
   "W128Sidra": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Consumo de bebidas locales, sidra, carajillo"
   },
@@ -5123,9 +4705,7 @@
   "Y133": {
     "diccionario": {
       "1": "Sí",
-      "2": "No",
-      "8": "No sabe",
-      "9": "No contesta"
+      "0": "No/No sabe - No contesta"
     },
     "Descripción": "Cuidado de personas mayores o de alguien que tenga una dolencia crónica al menos una vez a la semana"
   },
