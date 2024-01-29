@@ -1,0 +1,3 @@
+- optimizar el selectkbest
+- mas graficos en el eda
+- probar gradient
