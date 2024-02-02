@@ -1,10 +1,50 @@
 # Import necessary libraries
 import streamlit as st
 from pickle import load
+from xgboost import XGBClassifier
 
+
+################################
+import pandas as pd
+import json
+
+X_train = pd.read_csv("../data/processed/X_train_sel.csv")
+todas_columnas = X_train.columns
+
+# JSON file source
+ruta_json = "../data/json_files/full_var_dict.json"
+
+# loading JSON file
+with open(ruta_json, 'r') as archivo:
+    varijson = json.load(archivo)
+
+
+def parse_json(columna):
+    categories = list(varijson[columna]['diccionario'].values())
+    categories = [str(cat) for cat in categories]
+
+    values=list(varijson[columna]['diccionario'].keys())
+    values = [int(cat) for cat in values]
+    
+    title = varijson[columna]['Descripción']
+
+    return values, categories, title
+
+valores = []
+categorias = []
+titulos = []
+
+for column in todas_columnas:
+    val, cat, titl = parse_json(column)
+
+    valores.append(val)
+    categorias.append(cat)
+    titulos.append(titl)
+
+################################
 
 # Load the pre-trained machine learning model
-model = load(open("models/boost_final.pk", "rb"))
+model = load(open("../models/boost_final.pk", "rb"))
 
 
 # Set the title and description for the Streamlit app
@@ -29,7 +69,25 @@ toggle_value = st.checkbox("Depresion")
 # Mostrar el resultado
 st.write("Estado del toggle:", toggle_value)
 
+respuestas = []
 
+
+for cats, titl in zip(categorias, titulos):
+
+    if len(cats) < 3:
+        # Checkbox para opciones cortas
+        opcion_seleccionada = st.radio(titl, cats)
+        respuestas.append(opcion_seleccionada)
+
+    else:
+        # Radio para opciones largas
+        opcion_seleccionada = st.radio(titl, cats)
+        respuestas.append(opcion_seleccionada)
+    
+
+
+# Mostrar la opción seleccionada
+st.write("Has seleccionado:", respuestas)
 
 
 
@@ -40,11 +98,12 @@ st.write("Estado del toggle:", toggle_value)
 # Button to trigger the prediction
 if st.button("Predict"):
 
-    # # Make a prediction using the model
-    # prediction = str(model.predict([[
-    #     ## escribir aqui las variables predictoras
-    # ]])
-    # [0])
+    # Make a prediction using the model
+    prediction = str(model.predict([[
+                                    col for col in respuestas
+    ]])
+    [0])
+
 
     #Comprobacion random para ver si funciona
     if toggle_value:
