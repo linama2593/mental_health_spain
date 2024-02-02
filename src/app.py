@@ -1,7 +1,7 @@
 # Import necessary libraries
 import streamlit as st
 from pickle import load
-from xgboost import XGBClassifier
+import xgboost
 
 
 ################################
@@ -52,22 +52,8 @@ st.title("Project Title: Depression or Anxiety Risk Prediction using European Me
 st.write("Welcome to our machine learning project focused on predicting the risk of depression or anxiety using data from the European Mental Health Survey for Spain in 2020. We leverage a comprehensive dataset with approximately 400 columns and 22,000 rows of survey responses to develop a predictive model aimed at identifying individuals more prone to experiencing depression or anxiety.")
 
 
-# Define a dictionary to map model predictions to human-readable messages
-prediction_messages = {
-    "0": "Based on the model prediction, it suggests that you are at a lower risk of experiencing depression or anxiety.",
-    "1": "The model predicts a higher likelihood of experiencing depression or anxiety. It is advisable to seek professional advice or support."
-}
 
 
-
-
-
-
-# Crear un checkbox (toggle)
-toggle_value = st.checkbox("Depresion")
-
-# Mostrar el resultado
-st.write("Estado del toggle:", toggle_value)
 
 respuestas = []
 
@@ -85,13 +71,38 @@ for cats, titl in zip(categorias, titulos):
         respuestas.append(opcion_seleccionada)
     
 
+#######################################
+
+
+def parse_json_inversa(var,respuesta):
+
+
+    for clave, valor in varijson[var]['diccionario'].items():
+
+        if valor == respuesta:
+            return clave   
+
+respuestas_numero =[]
+
+for columna, respuesta in zip(todas_columnas,respuestas):
+
+    respuestas_numero.append(int(parse_json_inversa(columna,respuesta)))
+
+###########################################
+    
 
 # Mostrar la opción seleccionada
-st.write("Has seleccionado:", respuestas)
+print(respuestas)
+print(respuestas_numero)
 
 
 
 
+# Define a dictionary to map model predictions to human-readable messages
+prediction_messages = {
+    0: "Based on the model prediction, it suggests that you are at a lower risk of experiencing depression or anxiety.",
+    1: "The model predicts a higher likelihood of experiencing depression or anxiety. It is advisable to seek professional advice or support."
+}
 
 
 
@@ -99,17 +110,12 @@ st.write("Has seleccionado:", respuestas)
 if st.button("Predict"):
 
     # Make a prediction using the model
-    prediction = str(model.predict([[
-                                    col for col in respuestas
-    ]])
-    [0])
+    prediction = model.predict([respuestas_numero])[0]
+
+    print('Prediccion' , prediction)
 
 
-    #Comprobacion random para ver si funciona
-    if toggle_value:
-        pred_val = prediction_messages.get('1')
-        st.warning("¡Advertencia! Basado en el modelo, hay una mayor probabilidad de experimentar depresión o ansiedad. Se recomienda buscar asesoramiento profesional o apoyo.")
-    
-    else:
-        pred_val = prediction_messages.get('0')
-        st.success("¡Excelente! Basado en el modelo, hay una probabilidad más baja de experimentar depresión o ansiedad.")
+    pred_val = prediction_messages.get(prediction)
+
+    st.write('Prediccion: ...' , pred_val)
+
