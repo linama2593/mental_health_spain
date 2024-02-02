@@ -1,3 +1,4 @@
-- optimizar el selectkbest
-- mas graficos en el eda
-- probar gradient
+- streamlit! 
+- hacer el deployment 
+- presentacion y diseño de la app
+- descripciones y analisis extras 
