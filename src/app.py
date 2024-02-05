@@ -41,11 +41,14 @@ for column in todas_columnas:
     categorias.append(cat)
     titulos.append(titl)
 
-################################
+################################ CARGA MODELO
 
 # Load the pre-trained machine learning model
 model = load(open("../models/boost_final.pk", "rb"))
 
+
+
+##################### EDICION DISEÑO
 
 # Set the title and description for the Streamlit app
 st.title("Project Title: Depression or Anxiety Risk Prediction using European Mental Health Survey Data for Spain (2020)")
