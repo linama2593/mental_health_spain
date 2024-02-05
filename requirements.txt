@@ -1,5 +1,5 @@
 streamlit
-pickle
+#pickle
 xgboost
 pandas
 json
