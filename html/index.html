@@ -360,35 +360,52 @@
 		
 		<!-- Empieza tableau -->
 
-		<div style="max-width: 100%; overflow-x: auto;">
+		<section id="blog" class="code-section font-['Poppins']">
+			<div class="container mx-auto px-4 py-12">
+				<h2 id="blog-posts-header" class="mb-6 text-center text-3xl font-bold sm:text-6xl">An Overwiew of our Data</h2>
 
-			<script>
-				function setupWaitlistInput(a){document.querySelector(a+" button").addEventListener("click",function(){var n=document.querySelector(a+" input"),e=document.querySelector(a+" button"),t=n.placeholder,i=e.innerText,l=n.value;l?(n.disabled=!0,this.disabled=!0,this.innerText="Submitting...",fetch(window.LANDING_SITE_WAITLIST_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email:l,analyticsId:window.LANDING_SITE_ID})}).then(function(t){t.ok?(n.value="",n.placeholder="Submitted successfully",e.innerText="Done!"):async function(){var e=await t.json();n.value="",n.placeholder=e.error||"Error. Please try again."}()}).catch(function(e){n.value="",n.placeholder="Error. Please try again."}).finally(function(){setTimeout(function(){n.value="",n.placeholder=t,n.disabled=!1,e.disabled=!1,e.innerText=i},4e3)})):n.placeholder="Please enter your email"})}document.getElementById("mobile-menu-icon").addEventListener("click",function(){document.getElementById("nav-links-mobile").classList.toggle("hidden")}),setupWaitlistInput("#hero-waitlist-input"),setupWaitlistInput("#cta-waitlist-input");
-			</script>
-			<script defer src="https://kit.fontawesome.com/8e98006f77.js" crossorigin="anonymous"></script>
-			<script>
-				(function(){var js = "window['__CF$cv$params']={r:'850d9eea74528678',t:'MTcwNzE2MTk4MC45MzAwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();
-			</script>
-
-			<div class="tableauPlaceholder" id="viz1707161597196" style="position: relative">
-				<noscript>
-					<a href="#">
-						<img alt="Product Line Performance " src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProductLinePerformance_17071238367750&#47;ProductLinePerformance&#47;1_rss.png" style="border: none" />
-					</a>
-				</noscript>
-				<object class="tableauViz" style="display:none;">
-					<param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" /> <param name="embed_code_version" value="3" /> <param name="site_root" value="" />
-					<param name="name" value="ProductLinePerformance_17071238367750&#47;ProductLinePerformance" /><param name="tabs" value="no" /><param name="toolbar" value="yes" />
-					<param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProductLinePerformance_17071238367750&#47;ProductLinePerformance&#47;1.png" />
-					<param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" />
-					<param name="display_count" value="yes" /><param name="language" value="es-ES" />
-				</object>
-			</div>
-			<script type="text/javascript">
-				var divElement = document.getElementById('viz1707161597196');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1366px';vizElement.style.height='795px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-			</script>
-
+		<div class='tableauPlaceholder' id='viz1707287684209' style='position: relative'>
+			<noscript>
+				<a href='#'>
+					<img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;Mental_health_poll_data&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+				</a>
+			</noscript>
+			<object class='tableauViz'  style='display:none;'>
+				<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+				<param name='embed_code_version' value='3' />
+				<param name='site_root' value='' />
+				<param name='name' value='Mental_health_poll_data&#47;Dashboard1' />
+				<param name='tabs' value='no' />
+				<param name='toolbar' value='yes' />
+				<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;Mental_health_poll_data&#47;Dashboard1&#47;1.png' />
+				<param name='animate_transition' value='yes' />
+				<param name='display_static_image' value='yes' />
+				<param name='display_spinner' value='yes' />
+				<param name='display_overlay' value='yes' />
+				<param name='display_count' value='yes' />
+				<param name='language' value='es-ES' />
+				<param name='filter' value='publish=yes' />
+			</object>
 		</div>
+		
+		<script type='text/javascript'>
+			var divElement = document.getElementById('viz1707287684209');
+			var vizElement = divElement.getElementsByTagName('object')[0];
+			if ( divElement.offsetWidth > 800 ) {
+				vizElement.style.width='100%';
+				vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+			} else if ( divElement.offsetWidth > 500 ) {
+				vizElement.style.width='100%';
+				vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+			} else {
+				vizElement.style.width='100%';
+				vizElement.style.height='1327px';
+			}
+			var scriptElement = document.createElement('script');
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+			vizElement.parentNode.insertBefore(scriptElement, vizElement);
+		</script>
+		
 
 		<!-- acaba tableau -->
 
