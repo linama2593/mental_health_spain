@@ -2,7 +2,7 @@
 import streamlit as st
 from pickle import load
 import xgboost
-
+import numpy as np
 
 ################################
 import pandas as pd
@@ -107,18 +107,20 @@ prediction_messages = {
     1: "The model predicts a higher likelihood of experiencing depression or anxiety. It is advisable to seek professional advice or support."
 }
 
-
-
 # Button to trigger the prediction
 if st.button("Predict"):
 
     # Make a prediction using the model
     prediction = model.predict([respuestas_numero])[0]
 
-    print('Prediccion' , prediction)
-
+    # Get the probabilities of each class
+    class_indices = np.argmax(model.predict_proba([respuestas_numero]), axis=1)
+    probabilities = model.predict_proba([respuestas_numero])[0]
+    
+    print('Prediction:', prediction)
+    print('Probabilities:', probabilities)
 
     pred_val = prediction_messages.get(prediction)
 
-    st.write('Prediccion: ...' , pred_val)
-
+    st.write('Prediction:', pred_val)
+    st.write('Probabilities for class {}: {}'.format(prediction, probabilities[class_indices[0]]))
