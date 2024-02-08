@@ -1,0 +1,166 @@
+{
+  "G21": {
+    "dictionary": {
+      "1": "Very good",
+      "2": "Good",
+      "3": "Fair",
+      "4": "Poor",
+      "5": "Very poor"
+    },
+    "Description": "Perceived health status in the last 12 months"
+  },
+  "G24a": {
+    "dictionary": {
+      "1": "Very good",
+      "2": "Good",
+      "3": "Fair",
+      "4": "Poor",
+      "5": "Very poor",
+      "8": "Don't know",
+      "9": "No answer"
+    },
+    "Description": "Oral health status"
+  },
+  "G25a_5": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Have you ever suffered from: Varicose veins in the legs"
+  },
+  "G25a_6": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Have you ever suffered from: Osteoarthritis (excluding arthritis)"
+  },
+  "G25a_7": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Have you ever suffered from: Chronic back pain (cervical)"
+  },
+  "G25a_8": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Have you ever suffered from: Chronic back pain (lumbar)"
+  },
+  "G25a_14": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Have you ever suffered from: Urinary incontinence or urine control problems"
+  },
+  "G25a_18": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Have you ever suffered from: Chronic constipation"
+  },
+  "G25a_24": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Have you ever suffered from: Migraine or frequent headaches"
+  },
+  "G25a_25": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Have you ever suffered from: Hemorrhoids"
+  },
+  "G25a_27": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Have you ever suffered from: Osteoporosis"
+  },
+  "K37": {
+    "dictionary": {
+      "1": "No difficulty at all",
+      "2": "Some difficulty",
+      "3": "A lot of difficulty",
+      "4": "I can't do it at all",
+      "5": "Not applicable (never tried or needed to do it)",
+      "8": "Don't know",
+      "9": "No answer"
+    },
+    "Description": "Any difficulty walking 500 meters without assistance?"
+  },
+  "K38": {
+    "dictionary": {
+      "1": "No difficulty at all",
+      "2": "Some difficulty",
+      "3": "A lot of difficulty",
+      "4": "I can't do it at all",
+      "5": "Not applicable (never tried or needed to do it)",
+      "8": "Don't know",
+      "9": "No answer"
+    },
+    "Description": "Any difficulty climbing up or down 12 stairs?"
+  },
+  "K38a": {
+    "dictionary": {
+      "1": "No difficulty at all",
+      "2": "Some difficulty",
+      "3": "A lot of difficulty",
+      "4": "I can't do it at all",
+      "5": "Not applicable (never tried or needed to do it)",
+      "8": "Don't know",
+      "9": "No answer"
+    },
+    "Description": "Any difficulty concentrating?"
+  },
+  "L45": {
+    "dictionary": {
+      "1": "None",
+      "2": "Very mild",
+      "3": "Mild",
+      "4": "Moderate",
+      "5": "Severe",
+      "6": "Extreme",
+      "8": "Don't know",
+      "9": "No answer"
+    },
+    "Description": "Degree of pain experienced during the last 4 weeks"
+  },
+  "N48": {
+    "dictionary": {
+      "1": "In the last 4 weeks",
+      "2": "Between 4 weeks and 12 months",
+      "3": "12 months ago or more",
+      "4": "Never"
+    },
+    "Description": "When was the last visit to general or family doctor?"
+  },
+  "N58_2": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Did you visit during the last 12 months to: Psychologist, psychotherapist, or psychiatrist?"
+  },
+  "P87_2a_nuevo": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Do you take prescription or non-prescription pain medicines?"
+  },
+  "P87_13a_nuevo": {
+    "dictionary": {
+      "1": "Yes",
+      "0": "No/Don't know - No answer"
+    },
+    "Description": "Do you take prescription or non-prescription stomach and/or digestive disorder medicines?"
+  }
+}
