@@ -11,7 +11,7 @@ import json
 
 
 
-#### Eliminamos el boton superior de deploy 
+#### Eliminamos el boton superior de deploy
 
 st.set_page_config(page_title="Mental Health Care", layout="wide")
 
@@ -90,16 +90,16 @@ st.subheader("Welcome to our machine learning project focused on predicting the 
 respuestas = []
 
 
-for cats, titl in zip(categorias, titulos):
+for cats, titl, valor_prdeterminado in zip(categorias, titulos, [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 2, 1, 1, 1]):
 
     if len(cats) < 3:
         # Checkbox para opciones cortas
-        opcion_seleccionada = st.radio(titl, cats)
+        opcion_seleccionada = st.radio(titl, cats, index=valor_prdeterminado)
         respuestas.append(opcion_seleccionada)
 
     else:
         # Radio para opciones largas
-        opcion_seleccionada = st.radio(titl, cats)
+        opcion_seleccionada = st.radio(titl, cats, index=valor_prdeterminado)
         respuestas.append(opcion_seleccionada)
     
 
@@ -136,10 +136,6 @@ prediction_messages = {
     1: "The model predicts a higher likelihood of experiencing depression or anxiety. It is advisable to seek professional advice or support."
 }
 
-prediction_class = {
-    0: "No tener depresión",
-    1: "Depresion"
-}
 
 # Button to trigger the prediction
 if st.button("Predict"):
@@ -147,12 +143,14 @@ if st.button("Predict"):
     # Make a prediction using the model
     prediction = model.predict([respuestas_numero])[0]
 
+    print(prediction)
+
     # Get the probabilities of each class
     class_indices = np.argmax(model.predict_proba([respuestas_numero]), axis=1)
     probabilities = model.predict_proba([respuestas_numero])[0]
     
     print('Prediction:', prediction)
-    print('Probabilities:', probabilities)
+    print('Probabilities:', probabilities[1] *100)
 
     pred_val = prediction_messages.get(prediction)
 
@@ -161,6 +159,6 @@ if st.button("Predict"):
     st.write('Prediction:', pred_val)
 
     # Probabilities
-    probability = probabilities[class_indices[0]] * 100
+    probability = probabilities[1] * 100
     formatted_probability = "{:.2f}".format(probability)
-    st.write(f'Probabilities for {prediction_class.get(prediction)}: {formatted_probability}%')
+    st.write(f'The probability that the patient presents symptoms of anxiety or depression is about {formatted_probability}%')
