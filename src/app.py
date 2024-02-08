@@ -23,13 +23,13 @@ with open(ruta_json, 'r') as archivo:
 
 
 def parse_json(columna):
-    categories = list(varijson[columna]['diccionario'].values())
+    categories = list(varijson[columna]['dictionary'].values())
     categories = [str(cat) for cat in categories]
 
-    values=list(varijson[columna]['diccionario'].keys())
+    values=list(varijson[columna]['dictionary'].keys())
     values = [int(cat) for cat in values]
     
-    title = varijson[columna]['Descripción']
+    title = varijson[columna]['Description']
 
     return values, categories, title
 
@@ -83,7 +83,7 @@ for cats, titl in zip(categorias, titulos):
 def parse_json_inversa(var,respuesta):
 
 
-    for clave, valor in varijson[var]['diccionario'].items():
+    for clave, valor in varijson[var]['dictionary'].items():
 
         if valor == respuesta:
             return clave   
