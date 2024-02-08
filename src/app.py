@@ -8,6 +8,29 @@ import numpy as np
 import pandas as pd
 import json
 
+
+
+
+#### Eliminamos el boton superior de deploy 
+
+st.set_page_config(page_title="Mental Health Care", layout="wide")
+
+st.markdown("""
+    <style>
+        .reportview-container {
+            margin-top: -2em;
+        }
+        #MainMenu {visibility: hidden;}
+        .stDeployButton {display:none;}
+        footer {visibility: hidden;}
+        #stDecoration {display:none;}
+    </style>
+""", unsafe_allow_html=True)
+
+
+
+
+
 X_train = pd.read_csv("../data/processed/X_train_sel.csv")
 todas_columnas = X_train.columns
 
@@ -53,12 +76,15 @@ model = load(open("../models/boost_final.pk", "rb"))
 
 ##################### EDICION DISEÑO
 
+
+
+
 # Set the title and description for the Streamlit app
-st.title("Project Title: Depression or Anxiety Risk Prediction using European Mental Health Survey Data for Spain (2020)")
-st.write("Welcome to our machine learning project focused on predicting the risk of depression or anxiety using data from the European Mental Health Survey for Spain in 2020. We leverage a comprehensive dataset with approximately 400 columns and 22,000 rows of survey responses to develop a predictive model aimed at identifying individuals more prone to experiencing depression or anxiety.")
+st.title("Depression or Anxiety Risk Prediction using European Mental Health Survey Data for Spain (2020)")
 
+st.image('../assets/emotionalmental_sp23_1200x540.jpg')
 
-
+st.subheader("Welcome to our machine learning project focused on predicting the risk of depression or anxiety using data from the European Mental Health Survey for Spain in 2020. We leverage a comprehensive dataset with approximately 400 columns and 22,000 rows of survey responses to develop a predictive model aimed at identifying individuals more prone to experiencing depression or anxiety.")
 
 
 respuestas = []
@@ -110,6 +136,11 @@ prediction_messages = {
     1: "The model predicts a higher likelihood of experiencing depression or anxiety. It is advisable to seek professional advice or support."
 }
 
+prediction_class = {
+    0: "No tener depresión",
+    1: "Depresion"
+}
+
 # Button to trigger the prediction
 if st.button("Predict"):
 
@@ -125,5 +156,11 @@ if st.button("Predict"):
 
     pred_val = prediction_messages.get(prediction)
 
+
+
     st.write('Prediction:', pred_val)
-    st.write('Probabilities for class {}: {}'.format(prediction, probabilities[class_indices[0]]))
+
+    # Probabilities
+    probability = probabilities[class_indices[0]] * 100
+    formatted_probability = "{:.2f}".format(probability)
+    st.write(f'Probabilities for {prediction_class.get(prediction)}: {formatted_probability}%')
