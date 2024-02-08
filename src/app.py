@@ -11,8 +11,11 @@ import json
 X_train = pd.read_csv("../data/processed/X_train_sel.csv")
 todas_columnas = X_train.columns
 
-# JSON file source
-ruta_json = "../data/json_files/full_var_dict.json"
+# JSON file source in SPANISH
+#ruta_json = "../data/json_files/full_var_dict.json"
+
+# JSON file source in ENGLISH
+ruta_json='../data/json_files/english_json.json'
 
 # loading JSON file
 with open(ruta_json, 'r') as archivo:
