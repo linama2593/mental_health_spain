@@ -11,7 +11,7 @@ class MiHandler(http.server.SimpleHTTPRequestHandler):
         super().do_GET()
 
 # Configura el servidor web con el manejador definido
-with socketserver.TCPServer(("192.168.0.", PORT), MiHandler) as httpd:
+with socketserver.TCPServer(("0.0.0.0", PORT), MiHandler) as httpd:
     print("Servidor web en el puerto", PORT)
     # Inicia el servidor y espera solicitudes
     httpd.serve_forever()
